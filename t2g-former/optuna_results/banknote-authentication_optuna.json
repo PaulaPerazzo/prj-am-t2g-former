@@ -1,0 +1,11 @@
+{
+    "best_value": 1.0,
+    "best_params": {
+        "d_token": 224,
+        "n_layers": 4,
+        "attention_dropout": 0.35873446498999956,
+        "ffn_dropout": 0.17938655845949214,
+        "d_ffn_factor": 1.048687854667527,
+        "lr": 0.0011099290025278958
+    }
+}

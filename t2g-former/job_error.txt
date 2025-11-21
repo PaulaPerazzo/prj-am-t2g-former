@@ -1,0 +1,341 @@
+[I 2025-11-20 22:50:09,749] A new study created in memory with name: no-name-65356c7c-b12c-4ecf-be1f-4bd02fced796
+[I 2025-11-20 22:51:16,915] Trial 0 finished with value: 0.9031712473572938 and parameters: {'d_token': 192, 'n_layers': 4, 'attention_dropout': 0.42159827283831613, 'ffn_dropout': 0.14176020316253457, 'd_ffn_factor': 1.4174781589198282, 'lr': 0.00013840873807631016}. Best is trial 0 with value: 0.9031712473572938.
+[I 2025-11-20 22:52:04,594] Trial 1 finished with value: 0.9007399577167019 and parameters: {'d_token': 128, 'n_layers': 3, 'attention_dropout': 0.23244806184481026, 'ffn_dropout': 0.3305514082236628, 'd_ffn_factor': 2.3675613096102928, 'lr': 0.001027929564506353}. Best is trial 0 with value: 0.9031712473572938.
+[I 2025-11-20 22:52:49,736] Trial 2 finished with value: 0.8984672304439746 and parameters: {'d_token': 128, 'n_layers': 3, 'attention_dropout': 0.03314604989655695, 'ffn_dropout': 0.46058928414740163, 'd_ffn_factor': 2.4449454830965816, 'lr': 0.0009854722272058713}. Best is trial 0 with value: 0.9031712473572938.
+[I 2025-11-20 22:53:40,713] Trial 3 finished with value: 0.8938689217758984 and parameters: {'d_token': 96, 'n_layers': 4, 'attention_dropout': 0.23484185945944785, 'ffn_dropout': 0.49484520339800747, 'd_ffn_factor': 2.0077635510405756, 'lr': 0.0001762347477439776}. Best is trial 0 with value: 0.9031712473572938.
+[I 2025-11-20 22:55:17,819] Trial 4 finished with value: 0.9007399577167019 and parameters: {'d_token': 256, 'n_layers': 3, 'attention_dropout': 0.42703815002314494, 'ffn_dropout': 0.07457582532428875, 'd_ffn_factor': 2.944829216293601, 'lr': 0.0008781065441719555}. Best is trial 0 with value: 0.9031712473572938.
+[I 2025-11-20 22:56:27,662] Trial 5 finished with value: 0.8983615221987314 and parameters: {'d_token': 192, 'n_layers': 4, 'attention_dropout': 0.22597613544933687, 'ffn_dropout': 0.274005419352073, 'd_ffn_factor': 1.9533721165267584, 'lr': 0.00015331465441624715}. Best is trial 0 with value: 0.9031712473572938.
+[I 2025-11-20 22:57:14,416] Trial 6 finished with value: 0.9076109936575053 and parameters: {'d_token': 160, 'n_layers': 3, 'attention_dropout': 0.3497239366443424, 'ffn_dropout': 0.04276358958829651, 'd_ffn_factor': 2.353243901327387, 'lr': 0.00020892866730656202}. Best is trial 6 with value: 0.9076109936575053.
+[I 2025-11-20 22:57:38,880] Trial 7 finished with value: 0.9007928118393235 and parameters: {'d_token': 160, 'n_layers': 2, 'attention_dropout': 0.1271183365627015, 'ffn_dropout': 0.3765132908527164, 'd_ffn_factor': 1.574114453588789, 'lr': 0.00035166786329198267}. Best is trial 6 with value: 0.9076109936575053.
+[I 2025-11-20 22:57:41,763] Trial 8 pruned. 
+[I 2025-11-20 22:57:48,295] Trial 9 pruned. 
+[I 2025-11-20 22:58:05,758] Trial 10 finished with value: 0.9052854122621564 and parameters: {'d_token': 64, 'n_layers': 2, 'attention_dropout': 0.4985804372908278, 'ffn_dropout': 0.008768997610509102, 'd_ffn_factor': 1.1500560467458596, 'lr': 0.0020957985098034038}. Best is trial 6 with value: 0.9076109936575053.
+[I 2025-11-20 22:58:21,836] Trial 11 finished with value: 0.8984143763213531 and parameters: {'d_token': 64, 'n_layers': 2, 'attention_dropout': 0.4951162331980703, 'ffn_dropout': 0.004477720520321471, 'd_ffn_factor': 1.0688538894176334, 'lr': 0.0022914331890644605}. Best is trial 6 with value: 0.9076109936575053.
+[I 2025-11-20 22:58:29,116] Trial 12 pruned. 
+[I 2025-11-20 22:58:30,573] Trial 13 pruned. 
+[I 2025-11-20 22:59:04,254] Trial 14 pruned. 
+[I 2025-11-20 22:59:53,798] Trial 15 finished with value: 0.891490486257928 and parameters: {'d_token': 160, 'n_layers': 3, 'attention_dropout': 0.32446054674377217, 'ffn_dropout': 0.16737904906847317, 'd_ffn_factor': 1.7746997178411754, 'lr': 0.00010069484737349198}. Best is trial 6 with value: 0.9076109936575053.
+[I 2025-11-20 22:59:55,696] Trial 16 pruned. 
+[I 2025-11-20 23:00:56,572] Trial 17 finished with value: 0.905338266384778 and parameters: {'d_token': 128, 'n_layers': 4, 'attention_dropout': 0.3913882392508072, 'ffn_dropout': 0.036930185391916906, 'd_ffn_factor': 2.7381975604165136, 'lr': 0.0005554532971850471}. Best is trial 6 with value: 0.9076109936575053.
+[I 2025-11-20 23:01:26,457] Trial 18 pruned. 
+[I 2025-11-20 23:02:49,514] Trial 19 finished with value: 0.8984672304439746 and parameters: {'d_token': 160, 'n_layers': 4, 'attention_dropout': 0.3811641972182404, 'ffn_dropout': 0.10855320214367024, 'd_ffn_factor': 2.62494637676166, 'lr': 0.0002648689722723866}. Best is trial 6 with value: 0.9076109936575053.
+[I 2025-11-20 23:04:18,003] Trial 20 finished with value: 0.8938689217758984 and parameters: {'d_token': 224, 'n_layers': 4, 'attention_dropout': 0.29490040995950706, 'ffn_dropout': 0.06002794325095459, 'd_ffn_factor': 2.778653467312971, 'lr': 0.0006493080212378222}. Best is trial 6 with value: 0.9076109936575053.
+[I 2025-11-20 23:04:33,371] Trial 21 pruned. 
+[I 2025-11-20 23:04:35,448] Trial 22 pruned. 
+[I 2025-11-20 23:04:53,008] Trial 23 pruned. 
+[I 2025-11-20 23:05:19,474] Trial 24 pruned. 
+[I 2025-11-20 23:06:10,215] Trial 25 finished with value: 0.9007399577167019 and parameters: {'d_token': 160, 'n_layers': 3, 'attention_dropout': 0.464655623381127, 'ffn_dropout': 0.17117284378122244, 'd_ffn_factor': 2.4946366997930842, 'lr': 0.00026168256210491774}. Best is trial 6 with value: 0.9076109936575053.
+[I 2025-11-20 23:06:53,337] Trial 26 finished with value: 0.8938160676532769 and parameters: {'d_token': 64, 'n_layers': 4, 'attention_dropout': 0.3970731613010649, 'ffn_dropout': 0.001750556611036463, 'd_ffn_factor': 2.2557405782747857, 'lr': 0.0021365564780546163}. Best is trial 6 with value: 0.9076109936575053.
+[I 2025-11-20 23:06:56,654] Trial 27 pruned. 
+[I 2025-11-20 23:07:30,043] Trial 28 finished with value: 0.9006871035940802 and parameters: {'d_token': 96, 'n_layers': 3, 'attention_dropout': 0.2785636987751941, 'ffn_dropout': 0.0393612141082654, 'd_ffn_factor': 2.3586850567999047, 'lr': 0.0011231570021573223}. Best is trial 6 with value: 0.9076109936575053.
+[I 2025-11-20 23:07:38,878] Trial 29 pruned. 
+[I 2025-11-20 23:07:46,986] Trial 30 pruned. 
+[I 2025-11-20 23:07:52,449] Trial 31 pruned. 
+[I 2025-11-20 23:07:58,183] Trial 32 pruned. 
+[I 2025-11-20 23:08:02,751] Trial 33 pruned. 
+[I 2025-11-20 23:08:06,143] Trial 34 pruned. 
+[I 2025-11-20 23:08:11,013] Trial 35 pruned. 
+[I 2025-11-20 23:08:55,004] Trial 36 pruned. 
+[I 2025-11-20 23:09:00,681] Trial 37 pruned. 
+[I 2025-11-20 23:09:03,112] Trial 38 pruned. 
+[I 2025-11-20 23:09:05,011] Trial 39 pruned. 
+[I 2025-11-20 23:09:58,963] Trial 40 pruned. 
+[I 2025-11-20 23:10:01,651] Trial 41 pruned. 
+[I 2025-11-20 23:10:03,553] Trial 42 pruned. 
+[I 2025-11-20 23:10:05,813] Trial 43 pruned. 
+[I 2025-11-20 23:10:32,535] Trial 44 finished with value: 0.9030655391120508 and parameters: {'d_token': 160, 'n_layers': 2, 'attention_dropout': 0.14520391669443738, 'ffn_dropout': 0.31086324381424196, 'd_ffn_factor': 1.8621761101983998, 'lr': 0.00035091586328706026}. Best is trial 6 with value: 0.9076109936575053.
+[I 2025-11-20 23:10:43,260] Trial 45 pruned. 
+[I 2025-11-20 23:10:45,596] Trial 46 pruned. 
+[I 2025-11-20 23:11:27,469] Trial 47 pruned. 
+[I 2025-11-20 23:11:29,437] Trial 48 pruned. 
+[I 2025-11-20 23:11:30,854] Trial 49 pruned. 
+[I 2025-11-20 23:11:30,876] A new study created in memory with name: no-name-6137295f-0405-4cb2-b8df-52b33cb64753
+[I 2025-11-20 23:12:03,664] Trial 0 finished with value: 0.6570564516129033 and parameters: {'d_token': 128, 'n_layers': 3, 'attention_dropout': 0.207039766780159, 'ffn_dropout': 0.21587434974169534, 'd_ffn_factor': 2.411438321201977, 'lr': 0.001586680558107415}. Best is trial 0 with value: 0.6570564516129033.
+[I 2025-11-20 23:12:27,229] Trial 1 finished with value: 0.6473790322580646 and parameters: {'d_token': 96, 'n_layers': 3, 'attention_dropout': 0.4064263009131839, 'ffn_dropout': 0.24137590667311554, 'd_ffn_factor': 2.930826736502963, 'lr': 0.00029056323963135353}. Best is trial 0 with value: 0.6570564516129033.
+[I 2025-11-20 23:13:12,622] Trial 2 finished with value: 0.6541330645161291 and parameters: {'d_token': 256, 'n_layers': 3, 'attention_dropout': 0.44517428512172197, 'ffn_dropout': 0.48447265278885726, 'd_ffn_factor': 1.248054471568214, 'lr': 0.0003619649779024629}. Best is trial 0 with value: 0.6570564516129033.
+[I 2025-11-20 23:14:01,118] Trial 3 finished with value: 0.6730846774193548 and parameters: {'d_token': 128, 'n_layers': 4, 'attention_dropout': 0.4116847770908106, 'ffn_dropout': 0.31727494090766645, 'd_ffn_factor': 2.9538773950968737, 'lr': 0.0007131879994222493}. Best is trial 3 with value: 0.6730846774193548.
+[I 2025-11-20 23:14:26,532] Trial 4 finished with value: 0.6513104838709678 and parameters: {'d_token': 192, 'n_layers': 2, 'attention_dropout': 0.18762967106010875, 'ffn_dropout': 0.45635391218625543, 'd_ffn_factor': 2.9988340871575794, 'lr': 0.001661733446123188}. Best is trial 3 with value: 0.6730846774193548.
+[I 2025-11-20 23:14:29,407] Trial 5 pruned. 
+[I 2025-11-20 23:14:31,387] Trial 6 pruned. 
+[I 2025-11-20 23:14:33,787] Trial 7 pruned. 
+[I 2025-11-20 23:14:48,215] Trial 8 finished with value: 0.6730846774193548 and parameters: {'d_token': 64, 'n_layers': 2, 'attention_dropout': 0.315010853475347, 'ffn_dropout': 0.011239661399042422, 'd_ffn_factor': 2.434097488299132, 'lr': 0.0006710944645490994}. Best is trial 3 with value: 0.6730846774193548.
+[I 2025-11-20 23:14:50,348] Trial 9 pruned. 
+[I 2025-11-20 23:15:28,466] Trial 10 pruned. 
+[I 2025-11-20 23:15:30,433] Trial 11 pruned. 
+[I 2025-11-20 23:15:51,598] Trial 12 pruned. 
+[I 2025-11-20 23:15:53,423] Trial 13 pruned. 
+[I 2025-11-20 23:16:15,572] Trial 14 finished with value: 0.6567540322580646 and parameters: {'d_token': 96, 'n_layers': 3, 'attention_dropout': 0.2847698127443266, 'ffn_dropout': 0.3437696637173325, 'd_ffn_factor': 1.9085691542055518, 'lr': 0.0004968526742280241}. Best is trial 3 with value: 0.6730846774193548.
+[I 2025-11-20 23:16:25,503] Trial 15 pruned. 
+[I 2025-11-20 23:16:42,710] Trial 16 finished with value: 0.6664314516129033 and parameters: {'d_token': 160, 'n_layers': 2, 'attention_dropout': 0.11721484043355287, 'ffn_dropout': 0.0006308465914005579, 'd_ffn_factor': 2.0974502014420353, 'lr': 0.0009973958589520335}. Best is trial 3 with value: 0.6730846774193548.
+[I 2025-11-20 23:17:07,947] Trial 17 pruned. 
+[I 2025-11-20 23:17:10,780] Trial 18 pruned. 
+[I 2025-11-20 23:17:27,786] Trial 19 finished with value: 0.6699596774193549 and parameters: {'d_token': 96, 'n_layers': 2, 'attention_dropout': 0.44336212670350883, 'ffn_dropout': 0.30854605794869844, 'd_ffn_factor': 2.8386505661287043, 'lr': 0.0006789510710330387}. Best is trial 3 with value: 0.6730846774193548.
+[I 2025-11-20 23:17:29,776] Trial 20 pruned. 
+[I 2025-11-20 23:17:30,969] Trial 21 pruned. 
+[I 2025-11-20 23:17:44,366] Trial 22 finished with value: 0.6572580645161291 and parameters: {'d_token': 64, 'n_layers': 2, 'attention_dropout': 0.44688567568495435, 'ffn_dropout': 0.39828467777280746, 'd_ffn_factor': 2.647381252760077, 'lr': 0.000682044563305042}. Best is trial 3 with value: 0.6730846774193548.
+[I 2025-11-20 23:18:00,876] Trial 23 pruned. 
+[I 2025-11-20 23:18:29,120] Trial 24 pruned. 
+[I 2025-11-20 23:18:31,145] Trial 25 pruned. 
+[I 2025-11-20 23:18:32,309] Trial 26 pruned. 
+[I 2025-11-20 23:18:47,677] Trial 27 pruned. 
+[I 2025-11-20 23:18:49,400] Trial 28 pruned. 
+[I 2025-11-20 23:18:51,594] Trial 29 pruned. 
+[I 2025-11-20 23:19:25,364] Trial 30 finished with value: 0.6920362903225807 and parameters: {'d_token': 64, 'n_layers': 4, 'attention_dropout': 0.33926317726411026, 'ffn_dropout': 0.26913599655253007, 'd_ffn_factor': 2.87655750435587, 'lr': 0.0008783663152425112}. Best is trial 30 with value: 0.6920362903225807.
+[I 2025-11-20 23:19:27,400] Trial 31 pruned. 
+[I 2025-11-20 23:19:59,127] Trial 32 finished with value: 0.672983870967742 and parameters: {'d_token': 64, 'n_layers': 4, 'attention_dropout': 0.4232346220217917, 'ffn_dropout': 0.2507993928080586, 'd_ffn_factor': 2.9240699102610255, 'lr': 0.0006082534012897818}. Best is trial 30 with value: 0.6920362903225807.
+[I 2025-11-20 23:20:31,770] Trial 33 pruned. 
+[I 2025-11-20 23:20:34,045] Trial 34 pruned. 
+[I 2025-11-20 23:21:50,491] Trial 35 finished with value: 0.676108870967742 and parameters: {'d_token': 192, 'n_layers': 4, 'attention_dropout': 0.17609228610835348, 'ffn_dropout': 0.2819045670418006, 'd_ffn_factor': 2.9132308835650873, 'lr': 0.0010072710693869722}. Best is trial 30 with value: 0.6920362903225807.
+[I 2025-11-20 23:21:54,532] Trial 36 pruned. 
+[I 2025-11-20 23:21:59,810] Trial 37 pruned. 
+[I 2025-11-20 23:22:45,227] Trial 38 pruned. 
+[I 2025-11-20 23:23:38,854] Trial 39 pruned. 
+[I 2025-11-20 23:23:43,477] Trial 40 pruned. 
+[I 2025-11-20 23:23:47,108] Trial 41 pruned. 
+[I 2025-11-20 23:24:18,789] Trial 42 finished with value: 0.676108870967742 and parameters: {'d_token': 64, 'n_layers': 4, 'attention_dropout': 0.4104092487716539, 'ffn_dropout': 0.23108063028091722, 'd_ffn_factor': 2.7633075055905354, 'lr': 0.0003446363553705293}. Best is trial 30 with value: 0.6920362903225807.
+[I 2025-11-20 23:24:56,027] Trial 43 pruned. 
+[I 2025-11-20 23:25:50,491] Trial 44 pruned. 
+[I 2025-11-20 23:25:52,370] Trial 45 pruned. 
+[I 2025-11-20 23:25:56,669] Trial 46 pruned. 
+[I 2025-11-20 23:25:59,254] Trial 47 pruned. 
+[I 2025-11-20 23:26:03,271] Trial 48 pruned. 
+[I 2025-11-20 23:26:06,966] Trial 49 pruned. 
+[I 2025-11-20 23:26:07,020] A new study created in memory with name: no-name-c7bd59c7-bf06-4e0f-b180-82c04421534e
+[I 2025-11-20 23:26:55,214] Trial 0 finished with value: 0.7682539682539682 and parameters: {'d_token': 96, 'n_layers': 2, 'attention_dropout': 0.2284668935171676, 'ffn_dropout': 0.13735657072715057, 'd_ffn_factor': 1.9373240887437595, 'lr': 0.0027640061670707577}. Best is trial 0 with value: 0.7682539682539682.
+[I 2025-11-20 23:27:51,715] Trial 1 finished with value: 0.7111111111111111 and parameters: {'d_token': 64, 'n_layers': 2, 'attention_dropout': 0.36327082344746586, 'ffn_dropout': 0.0014392549579651526, 'd_ffn_factor': 2.7700953353500646, 'lr': 0.00014626011764389837}. Best is trial 0 with value: 0.7682539682539682.
+[I 2025-11-20 23:30:00,554] Trial 2 finished with value: 0.7611111111111111 and parameters: {'d_token': 160, 'n_layers': 3, 'attention_dropout': 0.4299029297892579, 'ffn_dropout': 0.06795602566710435, 'd_ffn_factor': 2.9394191667930123, 'lr': 0.0018497020931516688}. Best is trial 0 with value: 0.7682539682539682.
+[I 2025-11-20 23:31:17,541] Trial 3 finished with value: 0.7428571428571429 and parameters: {'d_token': 160, 'n_layers': 2, 'attention_dropout': 0.009528277589726963, 'ffn_dropout': 0.3839600918175668, 'd_ffn_factor': 1.9669531459321608, 'lr': 0.00013650021062158304}. Best is trial 0 with value: 0.7682539682539682.
+[I 2025-11-20 23:35:08,403] Trial 4 finished with value: 0.7682539682539682 and parameters: {'d_token': 224, 'n_layers': 4, 'attention_dropout': 0.11469296790111483, 'ffn_dropout': 0.3852410076703091, 'd_ffn_factor': 2.2668481945680963, 'lr': 0.0012111141816579076}. Best is trial 0 with value: 0.7682539682539682.
+[I 2025-11-20 23:36:48,205] Trial 5 finished with value: 0.7571428571428571 and parameters: {'d_token': 224, 'n_layers': 2, 'attention_dropout': 0.3404571713706669, 'ffn_dropout': 0.3779431847017511, 'd_ffn_factor': 2.0366495129880473, 'lr': 0.0003550937569984551}. Best is trial 0 with value: 0.7682539682539682.
+[I 2025-11-20 23:37:04,793] Trial 6 pruned. 
+[I 2025-11-20 23:40:15,477] Trial 7 finished with value: 0.7698412698412698 and parameters: {'d_token': 160, 'n_layers': 4, 'attention_dropout': 0.21886473618709373, 'ffn_dropout': 0.038548546990428034, 'd_ffn_factor': 2.4445127167709906, 'lr': 0.00217505870488773}. Best is trial 7 with value: 0.7698412698412698.
+[I 2025-11-20 23:41:20,574] Trial 8 finished with value: 0.7626984126984127 and parameters: {'d_token': 96, 'n_layers': 2, 'attention_dropout': 0.2824466345446751, 'ffn_dropout': 0.12001792149259993, 'd_ffn_factor': 2.809959659801771, 'lr': 0.000733541824616169}. Best is trial 7 with value: 0.7698412698412698.
+[I 2025-11-20 23:45:37,624] Trial 9 finished with value: 0.7761904761904761 and parameters: {'d_token': 256, 'n_layers': 4, 'attention_dropout': 0.004238178471030918, 'ffn_dropout': 0.09144441853506713, 'd_ffn_factor': 2.655724827308979, 'lr': 0.00034696195975101755}. Best is trial 9 with value: 0.7761904761904761.
+[I 2025-11-20 23:49:09,016] Trial 10 finished with value: 0.7746031746031745 and parameters: {'d_token': 256, 'n_layers': 4, 'attention_dropout': 0.13118314636274514, 'ffn_dropout': 0.23484734665557366, 'd_ffn_factor': 1.242841098274013, 'lr': 0.00030565642990338455}. Best is trial 9 with value: 0.7761904761904761.
+[I 2025-11-20 23:52:36,321] Trial 11 finished with value: 0.7730158730158729 and parameters: {'d_token': 256, 'n_layers': 4, 'attention_dropout': 0.13149973569179876, 'ffn_dropout': 0.2325285757075602, 'd_ffn_factor': 1.032272955769292, 'lr': 0.0003026288952302585}. Best is trial 9 with value: 0.7761904761904761.
+[I 2025-11-20 23:55:23,236] Trial 12 finished with value: 0.7674603174603174 and parameters: {'d_token': 256, 'n_layers': 3, 'attention_dropout': 0.12793083771298464, 'ffn_dropout': 0.16963306060487032, 'd_ffn_factor': 1.0233318368175977, 'lr': 0.00028588859408360716}. Best is trial 9 with value: 0.7761904761904761.
+[I 2025-11-20 23:55:40,756] Trial 13 pruned. 
+[I 2025-11-20 23:56:16,598] Trial 14 pruned. 
+[I 2025-11-20 23:56:44,791] Trial 15 pruned. 
+[I 2025-11-20 23:57:17,212] Trial 16 pruned. 
+[I 2025-11-21 00:00:00,619] Trial 17 finished with value: 0.7769841269841269 and parameters: {'d_token': 192, 'n_layers': 4, 'attention_dropout': 0.1708331841882857, 'ffn_dropout': 0.08016366213698142, 'd_ffn_factor': 1.221416196803336, 'lr': 0.0009559985558217485}. Best is trial 17 with value: 0.7769841269841269.
+[I 2025-11-21 00:00:06,760] Trial 18 pruned. 
+[I 2025-11-21 00:00:35,817] Trial 19 pruned. 
+[I 2025-11-21 00:00:56,905] Trial 20 pruned. 
+[I 2025-11-21 00:04:56,704] Trial 21 finished with value: 0.7738095238095237 and parameters: {'d_token': 256, 'n_layers': 4, 'attention_dropout': 0.15587947280921688, 'ffn_dropout': 0.19282748641079153, 'd_ffn_factor': 1.267927241533576, 'lr': 0.00019754728142693128}. Best is trial 17 with value: 0.7769841269841269.
+[I 2025-11-21 00:05:11,466] Trial 22 pruned. 
+[I 2025-11-21 00:05:45,474] Trial 23 pruned. 
+[I 2025-11-21 00:06:11,117] Trial 24 pruned. 
+[I 2025-11-21 00:06:27,522] Trial 25 pruned. 
+[I 2025-11-21 00:07:10,559] Trial 26 pruned. 
+[I 2025-11-21 00:07:39,709] Trial 27 pruned. 
+[I 2025-11-21 00:10:22,939] Trial 28 finished with value: 0.7785714285714285 and parameters: {'d_token': 192, 'n_layers': 4, 'attention_dropout': 0.029138794342165857, 'ffn_dropout': 0.27001756390051934, 'd_ffn_factor': 1.3994710711335876, 'lr': 0.0005651401477978282}. Best is trial 28 with value: 0.7785714285714285.
+[I 2025-11-21 00:10:46,054] Trial 29 pruned. 
+[I 2025-11-21 00:11:21,016] Trial 30 pruned. 
+[I 2025-11-21 00:11:59,610] Trial 31 pruned. 
+[I 2025-11-21 00:12:29,016] Trial 32 pruned. 
+[I 2025-11-21 00:12:44,305] Trial 33 pruned. 
+[I 2025-11-21 00:13:00,022] Trial 34 pruned. 
+[I 2025-11-21 00:13:14,087] Trial 35 pruned. 
+[I 2025-11-21 00:13:57,658] Trial 36 pruned. 
+[I 2025-11-21 00:14:21,298] Trial 37 pruned. 
+[I 2025-11-21 00:14:37,117] Trial 38 pruned. 
+[I 2025-11-21 00:16:29,183] Trial 39 finished with value: 0.7674603174603174 and parameters: {'d_token': 96, 'n_layers': 3, 'attention_dropout': 0.02059590948828753, 'ffn_dropout': 0.4202791572620199, 'd_ffn_factor': 2.392109758201526, 'lr': 0.0006877930342007679}. Best is trial 28 with value: 0.7785714285714285.
+[I 2025-11-21 00:17:07,115] Trial 40 pruned. 
+[I 2025-11-21 00:17:52,133] Trial 41 pruned. 
+[I 2025-11-21 00:21:42,321] Trial 42 finished with value: 0.7674603174603174 and parameters: {'d_token': 256, 'n_layers': 4, 'attention_dropout': 0.13879770066985886, 'ffn_dropout': 0.2842183791884456, 'd_ffn_factor': 1.0915846785797838, 'lr': 0.00017841338244231817}. Best is trial 28 with value: 0.7785714285714285.
+[I 2025-11-21 00:21:56,606] Trial 43 pruned. 
+[I 2025-11-21 00:22:09,630] Trial 44 pruned. 
+[I 2025-11-21 00:22:59,740] Trial 45 pruned. 
+[I 2025-11-21 00:23:09,968] Trial 46 pruned. 
+[I 2025-11-21 00:23:16,164] Trial 47 pruned. 
+[I 2025-11-21 00:23:40,489] Trial 48 pruned. 
+[I 2025-11-21 00:23:48,704] Trial 49 pruned. 
+[I 2025-11-21 00:23:48,760] A new study created in memory with name: no-name-6937eba3-5e1a-43eb-b39d-c8563e4f5e31
+[I 2025-11-21 00:28:24,045] Trial 0 finished with value: 0.7724318658280923 and parameters: {'d_token': 224, 'n_layers': 4, 'attention_dropout': 0.013680515443359742, 'ffn_dropout': 0.49481500061950245, 'd_ffn_factor': 2.0869140212346586, 'lr': 0.00021407722028381201}. Best is trial 0 with value: 0.7724318658280923.
+[I 2025-11-21 00:30:21,544] Trial 1 finished with value: 0.7575821104122992 and parameters: {'d_token': 256, 'n_layers': 2, 'attention_dropout': 0.4156537938211194, 'ffn_dropout': 0.2514188711874736, 'd_ffn_factor': 1.4411871037038224, 'lr': 0.00011039296921578088}. Best is trial 0 with value: 0.7724318658280923.
+[I 2025-11-21 00:32:15,257] Trial 2 finished with value: 0.7780922431865829 and parameters: {'d_token': 256, 'n_layers': 2, 'attention_dropout': 0.06718435876393247, 'ffn_dropout': 0.2885080442733408, 'd_ffn_factor': 2.7291394054180134, 'lr': 0.0006418038967988218}. Best is trial 2 with value: 0.7780922431865829.
+[I 2025-11-21 00:33:42,838] Trial 3 finished with value: 0.7648846960167714 and parameters: {'d_token': 64, 'n_layers': 4, 'attention_dropout': 0.09756042225948197, 'ffn_dropout': 0.08332418237051625, 'd_ffn_factor': 2.247648504568132, 'lr': 0.002934856147229267}. Best is trial 2 with value: 0.7780922431865829.
+[I 2025-11-21 00:36:28,269] Trial 4 finished with value: 0.7611460517120894 and parameters: {'d_token': 224, 'n_layers': 3, 'attention_dropout': 0.4659690180735463, 'ffn_dropout': 0.4783699520520534, 'd_ffn_factor': 2.317602661776225, 'lr': 0.0011449606564670918}. Best is trial 2 with value: 0.7780922431865829.
+[I 2025-11-21 00:37:08,939] Trial 5 finished with value: 0.7574772886093641 and parameters: {'d_token': 96, 'n_layers': 2, 'attention_dropout': 0.15914398131974056, 'ffn_dropout': 0.24786385287517387, 'd_ffn_factor': 2.8985938398463906, 'lr': 0.0005775499709949727}. Best is trial 2 with value: 0.7780922431865829.
+[I 2025-11-21 00:37:16,363] Trial 6 pruned. 
+[I 2025-11-21 00:37:25,368] Trial 7 pruned. 
+[I 2025-11-21 00:37:40,494] Trial 8 pruned. 
+[I 2025-11-21 00:43:06,258] Trial 9 finished with value: 0.7629979035639413 and parameters: {'d_token': 256, 'n_layers': 4, 'attention_dropout': 0.06097532710724518, 'ffn_dropout': 0.24655495993667365, 'd_ffn_factor': 2.0986907494530067, 'lr': 0.002842579374903262}. Best is trial 2 with value: 0.7780922431865829.
+[I 2025-11-21 00:43:12,564] Trial 10 pruned. 
+[I 2025-11-21 00:43:29,543] Trial 11 pruned. 
+[I 2025-11-21 00:46:05,472] Trial 12 finished with value: 0.7744234800838574 and parameters: {'d_token': 192, 'n_layers': 3, 'attention_dropout': 0.0032064671250321523, 'ffn_dropout': 0.381865641926545, 'd_ffn_factor': 2.4777157496829254, 'lr': 0.0003378190155824976}. Best is trial 2 with value: 0.7780922431865829.
+[I 2025-11-21 00:46:24,818] Trial 13 pruned. 
+[I 2025-11-21 00:47:48,869] Trial 14 finished with value: 0.7780573025856045 and parameters: {'d_token': 192, 'n_layers': 2, 'attention_dropout': 0.003430477655689629, 'ffn_dropout': 0.3618421357793796, 'd_ffn_factor': 2.5104435120831585, 'lr': 0.0008648807276103882}. Best is trial 2 with value: 0.7780922431865829.
+[I 2025-11-21 00:49:16,108] Trial 15 finished with value: 0.7780573025856045 and parameters: {'d_token': 160, 'n_layers': 2, 'attention_dropout': 0.08495049832427429, 'ffn_dropout': 0.3268325738229584, 'd_ffn_factor': 2.948028315123945, 'lr': 0.0011391874192661685}. Best is trial 2 with value: 0.7780922431865829.
+[I 2025-11-21 00:50:45,595] Trial 16 finished with value: 0.7779874213836478 and parameters: {'d_token': 224, 'n_layers': 2, 'attention_dropout': 0.17031635359363473, 'ffn_dropout': 0.1571656361399933, 'd_ffn_factor': 2.615613835197955, 'lr': 0.0007862071438872728}. Best is trial 2 with value: 0.7780922431865829.
+[I 2025-11-21 00:50:56,420] Trial 17 pruned. 
+[I 2025-11-21 00:51:56,745] Trial 18 finished with value: 0.8025856044723969 and parameters: {'d_token': 128, 'n_layers': 2, 'attention_dropout': 0.059318582757231814, 'ffn_dropout': 0.19039783860512677, 'd_ffn_factor': 2.7819717121813503, 'lr': 0.0018961978784154175}. Best is trial 18 with value: 0.8025856044723969.
+[I 2025-11-21 00:53:47,450] Trial 19 finished with value: 0.789308176100629 and parameters: {'d_token': 128, 'n_layers': 3, 'attention_dropout': 0.06449837754895418, 'ffn_dropout': 0.1802246038394181, 'd_ffn_factor': 2.998042758997276, 'lr': 0.0015634926228959881}. Best is trial 18 with value: 0.8025856044723969.
+[I 2025-11-21 00:53:58,472] Trial 20 pruned. 
+[I 2025-11-21 00:54:09,423] Trial 21 pruned. 
+[I 2025-11-21 00:54:14,349] Trial 22 pruned. 
+[I 2025-11-21 00:54:56,539] Trial 23 finished with value: 0.7875262054507338 and parameters: {'d_token': 96, 'n_layers': 2, 'attention_dropout': 0.04614652612108308, 'ffn_dropout': 0.2141246139015011, 'd_ffn_factor': 2.9967881459825527, 'lr': 0.001316451268399151}. Best is trial 18 with value: 0.8025856044723969.
+[I 2025-11-21 00:55:41,215] Trial 24 finished with value: 0.7874213836477988 and parameters: {'d_token': 96, 'n_layers': 2, 'attention_dropout': 0.1353561309307664, 'ffn_dropout': 0.20937361198281623, 'd_ffn_factor': 2.9629487137138404, 'lr': 0.0013512392575258016}. Best is trial 18 with value: 0.8025856044723969.
+[I 2025-11-21 00:57:21,478] Trial 25 finished with value: 0.7762403913347309 and parameters: {'d_token': 128, 'n_layers': 3, 'attention_dropout': 0.043050444936854164, 'ffn_dropout': 0.01548868733869646, 'd_ffn_factor': 2.8389510040794037, 'lr': 0.0022222745046245863}. Best is trial 18 with value: 0.8025856044723969.
+[I 2025-11-21 00:58:05,015] Trial 26 finished with value: 0.7779874213836477 and parameters: {'d_token': 96, 'n_layers': 2, 'attention_dropout': 0.20271736687281097, 'ffn_dropout': 0.11203744054995728, 'd_ffn_factor': 2.6176917976863625, 'lr': 0.001385347594415233}. Best is trial 18 with value: 0.8025856044723969.
+[I 2025-11-21 00:58:10,125] Trial 27 pruned. 
+[I 2025-11-21 00:59:33,025] Trial 28 finished with value: 0.7723619846261356 and parameters: {'d_token': 128, 'n_layers': 3, 'attention_dropout': 0.03776849601091127, 'ffn_dropout': 0.13751709996239647, 'd_ffn_factor': 1.874077841403047, 'lr': 0.0015167937823705453}. Best is trial 18 with value: 0.8025856044723969.
+[I 2025-11-21 00:59:39,831] Trial 29 pruned. 
+[I 2025-11-21 00:59:44,103] Trial 30 pruned. 
+[I 2025-11-21 00:59:48,494] Trial 31 pruned. 
+[I 2025-11-21 00:59:53,609] Trial 32 pruned. 
+[I 2025-11-21 00:59:56,960] Trial 33 pruned. 
+[I 2025-11-21 01:00:47,427] Trial 34 finished with value: 0.7893431167016074 and parameters: {'d_token': 96, 'n_layers': 2, 'attention_dropout': 0.03953088201613576, 'ffn_dropout': 0.2886988402950926, 'd_ffn_factor': 2.775328579273503, 'lr': 0.0007320898824129205}. Best is trial 18 with value: 0.8025856044723969.
+[I 2025-11-21 01:00:50,381] Trial 35 pruned. 
+[I 2025-11-21 01:03:40,548] Trial 36 finished with value: 0.7743535988819008 and parameters: {'d_token': 160, 'n_layers': 4, 'attention_dropout': 0.06941935093096266, 'ffn_dropout': 0.41994621091392925, 'd_ffn_factor': 2.377240069682645, 'lr': 0.00039974487618081215}. Best is trial 18 with value: 0.8025856044723969.
+[I 2025-11-21 01:03:44,723] Trial 37 pruned. 
+[I 2025-11-21 01:03:49,821] Trial 38 pruned. 
+[I 2025-11-21 01:03:55,375] Trial 39 pruned. 
+[I 2025-11-21 01:04:05,908] Trial 40 pruned. 
+[I 2025-11-21 01:04:09,697] Trial 41 pruned. 
+[I 2025-11-21 01:04:12,873] Trial 42 pruned. 
+[I 2025-11-21 01:05:00,191] Trial 43 finished with value: 0.7648846960167716 and parameters: {'d_token': 96, 'n_layers': 2, 'attention_dropout': 0.05069828490968846, 'ffn_dropout': 0.26629342201393835, 'd_ffn_factor': 2.7006747265575592, 'lr': 0.001663201768262071}. Best is trial 18 with value: 0.8025856044723969.
+[I 2025-11-21 01:05:05,543] Trial 44 pruned. 
+[I 2025-11-21 01:05:08,969] Trial 45 pruned. 
+[I 2025-11-21 01:05:56,421] Trial 46 finished with value: 0.7723270440251572 and parameters: {'d_token': 96, 'n_layers': 2, 'attention_dropout': 0.07980517076954008, 'ffn_dropout': 0.2310047948298924, 'd_ffn_factor': 2.785456856588589, 'lr': 0.0009806084176994798}. Best is trial 18 with value: 0.8025856044723969.
+[I 2025-11-21 01:06:10,521] Trial 47 pruned. 
+[I 2025-11-21 01:06:49,719] Trial 48 finished with value: 0.7686233403214536 and parameters: {'d_token': 96, 'n_layers': 2, 'attention_dropout': 0.019550683792644935, 'ffn_dropout': 0.20197502329379508, 'd_ffn_factor': 2.440300836157924, 'lr': 0.0024842834567836754}. Best is trial 18 with value: 0.8025856044723969.
+[I 2025-11-21 01:08:17,531] Trial 49 finished with value: 0.778022361984626 and parameters: {'d_token': 160, 'n_layers': 3, 'attention_dropout': 0.19066308159673087, 'ffn_dropout': 0.11311688210589649, 'd_ffn_factor': 1.2352724477299764, 'lr': 0.0004231317468415541}. Best is trial 18 with value: 0.8025856044723969.
+[I 2025-11-21 01:08:17,631] A new study created in memory with name: no-name-13de9e11-929e-4486-9444-9ca3055bc1ef
+[I 2025-11-21 01:09:14,958] Trial 0 finished with value: 1.0 and parameters: {'d_token': 224, 'n_layers': 4, 'attention_dropout': 0.35873446498999956, 'ffn_dropout': 0.17938655845949214, 'd_ffn_factor': 1.048687854667527, 'lr': 0.0011099290025278958}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:09:43,780] Trial 1 finished with value: 1.0 and parameters: {'d_token': 192, 'n_layers': 2, 'attention_dropout': 0.3173490344739478, 'ffn_dropout': 0.019096709021746094, 'd_ffn_factor': 1.654380864706536, 'lr': 0.0008080629288098418}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:10:06,381] Trial 2 finished with value: 1.0 and parameters: {'d_token': 96, 'n_layers': 2, 'attention_dropout': 0.31268300702585183, 'ffn_dropout': 0.1273249590760368, 'd_ffn_factor': 1.658435204914354, 'lr': 0.001510804463747991}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:10:48,545] Trial 3 finished with value: 1.0 and parameters: {'d_token': 224, 'n_layers': 2, 'attention_dropout': 0.05829309431474433, 'ffn_dropout': 0.4795452617953089, 'd_ffn_factor': 2.436461446411881, 'lr': 0.001217682426132731}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:11:50,633] Trial 4 finished with value: 1.0 and parameters: {'d_token': 192, 'n_layers': 4, 'attention_dropout': 0.4649076862400338, 'ffn_dropout': 0.2239853204131882, 'd_ffn_factor': 1.029939006245084, 'lr': 0.0001995845925163639}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:12:23,334] Trial 5 finished with value: 0.9988372093023254 and parameters: {'d_token': 96, 'n_layers': 2, 'attention_dropout': 0.3131764199549254, 'ffn_dropout': 0.00676137397645693, 'd_ffn_factor': 2.1248220318604947, 'lr': 0.00015283470774442442}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:12:44,481] Trial 6 finished with value: 1.0 and parameters: {'d_token': 64, 'n_layers': 2, 'attention_dropout': 0.39553416727684376, 'ffn_dropout': 0.47998685017671433, 'd_ffn_factor': 2.890071144712455, 'lr': 0.0025759386011888178}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:13:50,837] Trial 7 finished with value: 1.0 and parameters: {'d_token': 256, 'n_layers': 4, 'attention_dropout': 0.2212219255324852, 'ffn_dropout': 0.24879859554087486, 'd_ffn_factor': 1.013795398408815, 'lr': 0.0006587849910837208}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:14:31,673] Trial 8 finished with value: 1.0 and parameters: {'d_token': 256, 'n_layers': 2, 'attention_dropout': 0.24981812137152287, 'ffn_dropout': 0.10037989710782697, 'd_ffn_factor': 2.1783828705520634, 'lr': 0.0002861176164283059}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:15:01,480] Trial 9 finished with value: 1.0 and parameters: {'d_token': 192, 'n_layers': 2, 'attention_dropout': 0.10700530848120193, 'ffn_dropout': 0.18726416421727554, 'd_ffn_factor': 2.556014743822022, 'lr': 0.00042284718096907513}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:15:38,354] Trial 10 finished with value: 1.0 and parameters: {'d_token': 128, 'n_layers': 3, 'attention_dropout': 0.154784357158968, 'ffn_dropout': 0.38710367089906283, 'd_ffn_factor': 1.4606564738001606, 'lr': 0.0020727117149955637}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:16:17,958] Trial 11 finished with value: 1.0 and parameters: {'d_token': 192, 'n_layers': 3, 'attention_dropout': 0.38977513404775643, 'ffn_dropout': 0.006346888320300755, 'd_ffn_factor': 1.5519097168619223, 'lr': 0.0007740261700219401}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:17:04,641] Trial 12 finished with value: 1.0 and parameters: {'d_token': 160, 'n_layers': 4, 'attention_dropout': 0.34833081472698935, 'ffn_dropout': 0.3316408540739537, 'd_ffn_factor': 1.2750702374070673, 'lr': 0.0010000903822037978}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:17:57,817] Trial 13 finished with value: 1.0 and parameters: {'d_token': 224, 'n_layers': 3, 'attention_dropout': 0.49515514486041257, 'ffn_dropout': 0.09569442998854027, 'd_ffn_factor': 1.7920944665365794, 'lr': 0.00045155876288435884}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:18:51,661] Trial 14 finished with value: 1.0 and parameters: {'d_token': 160, 'n_layers': 4, 'attention_dropout': 0.20439037020190387, 'ffn_dropout': 0.3090903866241373, 'd_ffn_factor': 1.281738737288129, 'lr': 0.0015605047417861174}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:19:46,951] Trial 15 finished with value: 1.0 and parameters: {'d_token': 224, 'n_layers': 3, 'attention_dropout': 0.3895185064883642, 'ffn_dropout': 0.16154926923422558, 'd_ffn_factor': 1.88826946983028, 'lr': 0.000868857637613843}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:20:22,847] Trial 16 finished with value: 1.0 and parameters: {'d_token': 160, 'n_layers': 3, 'attention_dropout': 0.28949361232986764, 'ffn_dropout': 0.06081504861207654, 'd_ffn_factor': 1.375741077883641, 'lr': 0.0003428875129141431}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:21:33,566] Trial 17 finished with value: 1.0 and parameters: {'d_token': 224, 'n_layers': 4, 'attention_dropout': 0.44848455437820245, 'ffn_dropout': 0.06076948753819707, 'd_ffn_factor': 1.7114721322920585, 'lr': 0.0006099688255199172}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:22:30,733] Trial 18 finished with value: 1.0 and parameters: {'d_token': 256, 'n_layers': 3, 'attention_dropout': 0.17133040350094994, 'ffn_dropout': 0.3053452427858605, 'd_ffn_factor': 1.2100509381090532, 'lr': 0.0017897494707896616}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:23:34,963] Trial 19 finished with value: 1.0 and parameters: {'d_token': 192, 'n_layers': 4, 'attention_dropout': 0.014180448806916685, 'ffn_dropout': 0.17507412400886058, 'd_ffn_factor': 2.034239679980309, 'lr': 0.0001140876510576595}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:24:14,772] Trial 20 finished with value: 1.0 and parameters: {'d_token': 128, 'n_layers': 3, 'attention_dropout': 0.26881546511166887, 'ffn_dropout': 0.05490625419680662, 'd_ffn_factor': 2.333396760133725, 'lr': 0.0010660044578030279}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:24:33,467] Trial 21 finished with value: 1.0 and parameters: {'d_token': 64, 'n_layers': 2, 'attention_dropout': 0.33534789671828924, 'ffn_dropout': 0.12719945501686458, 'd_ffn_factor': 1.6245635674776766, 'lr': 0.0013279783929232623}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:25:01,862] Trial 22 finished with value: 0.9988372093023254 and parameters: {'d_token': 128, 'n_layers': 2, 'attention_dropout': 0.345213951846488, 'ffn_dropout': 0.1319522352678549, 'd_ffn_factor': 1.857668609554871, 'lr': 0.002864855684702135}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:25:22,775] Trial 23 finished with value: 1.0 and parameters: {'d_token': 96, 'n_layers': 2, 'attention_dropout': 0.42016533005515416, 'ffn_dropout': 0.19219059508536904, 'd_ffn_factor': 1.6402486544344685, 'lr': 0.0015503305384973458}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:25:52,032] Trial 24 finished with value: 1.0 and parameters: {'d_token': 192, 'n_layers': 2, 'attention_dropout': 0.31545774896054823, 'ffn_dropout': 0.22654022010139627, 'd_ffn_factor': 1.1531591806814732, 'lr': 0.0020556693520526964}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:26:20,390] Trial 25 finished with value: 1.0 and parameters: {'d_token': 96, 'n_layers': 3, 'attention_dropout': 0.24348103582557945, 'ffn_dropout': 0.03885654769885964, 'd_ffn_factor': 1.4377130229964246, 'lr': 0.0007758161203344271}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:26:48,256] Trial 26 finished with value: 1.0 and parameters: {'d_token': 160, 'n_layers': 2, 'attention_dropout': 0.3661781285641126, 'ffn_dropout': 0.10292026640109087, 'd_ffn_factor': 1.9320503928193582, 'lr': 0.000548658174738753}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:27:23,829] Trial 27 finished with value: 1.0 and parameters: {'d_token': 224, 'n_layers': 2, 'attention_dropout': 0.2958065489155043, 'ffn_dropout': 0.14840276816281867, 'd_ffn_factor': 1.5210819183773436, 'lr': 0.001256016365828303}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:27:59,625] Trial 28 finished with value: 1.0 and parameters: {'d_token': 128, 'n_layers': 3, 'attention_dropout': 0.4304248718923336, 'ffn_dropout': 0.03048692036121363, 'd_ffn_factor': 1.7173264061474844, 'lr': 0.0009378333892947877}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:28:42,981] Trial 29 finished with value: 1.0 and parameters: {'d_token': 224, 'n_layers': 2, 'attention_dropout': 0.36715978059210114, 'ffn_dropout': 0.08524545504863519, 'd_ffn_factor': 2.423550129045661, 'lr': 0.001361192159682704}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:30:02,966] Trial 30 finished with value: 1.0 and parameters: {'d_token': 192, 'n_layers': 4, 'attention_dropout': 0.26474196763877555, 'ffn_dropout': 0.2815374454585611, 'd_ffn_factor': 2.7925061517989995, 'lr': 0.0011179735577376896}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:30:41,927] Trial 31 finished with value: 1.0 and parameters: {'d_token': 224, 'n_layers': 2, 'attention_dropout': 0.008614608248935438, 'ffn_dropout': 0.3826353246571509, 'd_ffn_factor': 2.6442325544132554, 'lr': 0.0007536323620138562}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:31:28,654] Trial 32 finished with value: 0.9976744186046511 and parameters: {'d_token': 256, 'n_layers': 2, 'attention_dropout': 0.0886288204602037, 'ffn_dropout': 0.43276690600707163, 'd_ffn_factor': 2.232273883210784, 'lr': 0.002143351835045248}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:32:00,225] Trial 33 finished with value: 1.0 and parameters: {'d_token': 192, 'n_layers': 2, 'attention_dropout': 0.3070023999473409, 'ffn_dropout': 0.2090225177415002, 'd_ffn_factor': 2.0480703175538517, 'lr': 0.0016277426159071171}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:32:28,559] Trial 34 finished with value: 1.0 and parameters: {'d_token': 224, 'n_layers': 2, 'attention_dropout': 0.11042162555233286, 'ffn_dropout': 0.48053583004043626, 'd_ffn_factor': 1.075511187774113, 'lr': 0.0011332243567967408}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:32:46,858] Trial 35 finished with value: 1.0 and parameters: {'d_token': 64, 'n_layers': 2, 'attention_dropout': 0.06620694133098967, 'ffn_dropout': 0.2519616058658842, 'd_ffn_factor': 2.984561956465379, 'lr': 0.0024038842820942423}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:33:37,397] Trial 36 finished with value: 1.0 and parameters: {'d_token': 256, 'n_layers': 2, 'attention_dropout': 0.18733229208058846, 'ffn_dropout': 0.4997205760443006, 'd_ffn_factor': 2.492947227240177, 'lr': 0.00021631841957654263}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:34:10,937] Trial 37 finished with value: 1.0 and parameters: {'d_token': 192, 'n_layers': 2, 'attention_dropout': 0.22594306893440239, 'ffn_dropout': 0.24285048984159138, 'd_ffn_factor': 2.703743677594353, 'lr': 0.00044480330646696597}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:35:18,365] Trial 38 finished with value: 1.0 and parameters: {'d_token': 256, 'n_layers': 3, 'attention_dropout': 0.3285329728587571, 'ffn_dropout': 0.43270791216286764, 'd_ffn_factor': 2.2275795346247635, 'lr': 0.0006638883508270745}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:35:59,865] Trial 39 finished with value: 1.0 and parameters: {'d_token': 96, 'n_layers': 4, 'attention_dropout': 0.14344121206284163, 'ffn_dropout': 0.006533528902345688, 'd_ffn_factor': 2.114017604610732, 'lr': 0.001839275413630468}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:36:25,558] Trial 40 finished with value: 1.0 and parameters: {'d_token': 160, 'n_layers': 2, 'attention_dropout': 0.28339018786151915, 'ffn_dropout': 0.3784953199000288, 'd_ffn_factor': 1.3427029759161453, 'lr': 0.0008788143567723995}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:37:33,566] Trial 41 finished with value: 1.0 and parameters: {'d_token': 192, 'n_layers': 4, 'attention_dropout': 0.43808578399780973, 'ffn_dropout': 0.27170266314513064, 'd_ffn_factor': 1.0292480720034272, 'lr': 0.000146676018895362}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:38:39,902] Trial 42 finished with value: 1.0 and parameters: {'d_token': 224, 'n_layers': 4, 'attention_dropout': 0.4880162650686409, 'ffn_dropout': 0.20177506980531984, 'd_ffn_factor': 1.145446811655614, 'lr': 0.00025999263883064405}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:39:38,118] Trial 43 finished with value: 1.0 and parameters: {'d_token': 192, 'n_layers': 4, 'attention_dropout': 0.47017705789236874, 'ffn_dropout': 0.12035642889673848, 'd_ffn_factor': 1.012809446558739, 'lr': 0.00018048284022430713}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:41:05,029] Trial 44 finished with value: 0.9988372093023254 and parameters: {'d_token': 224, 'n_layers': 4, 'attention_dropout': 0.4072433939596602, 'ffn_dropout': 0.22075125102863513, 'd_ffn_factor': 1.3579771295076966, 'lr': 0.00010232141743118192}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:41:59,559] Trial 45 finished with value: 0.9988372093023254 and parameters: {'d_token': 192, 'n_layers': 4, 'attention_dropout': 0.3632266780089682, 'ffn_dropout': 0.15795211282581817, 'd_ffn_factor': 1.2399347854343894, 'lr': 0.00034307138591800276}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:42:42,142] Trial 46 finished with value: 1.0 and parameters: {'d_token': 160, 'n_layers': 3, 'attention_dropout': 0.3911138619424558, 'ffn_dropout': 0.3555948314256706, 'd_ffn_factor': 1.525289931548888, 'lr': 0.0005029343320171031}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:43:55,407] Trial 47 finished with value: 1.0 and parameters: {'d_token': 224, 'n_layers': 4, 'attention_dropout': 0.46266033448141225, 'ffn_dropout': 0.17011050019991764, 'd_ffn_factor': 1.8121097938000776, 'lr': 0.0006630650922431228}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:44:32,628] Trial 48 finished with value: 1.0 and parameters: {'d_token': 192, 'n_layers': 3, 'attention_dropout': 0.3216894579279149, 'ffn_dropout': 0.08796377884013765, 'd_ffn_factor': 1.1032565389362794, 'lr': 0.0003712790984755781}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:45:01,653] Trial 49 finished with value: 1.0 and parameters: {'d_token': 160, 'n_layers': 2, 'attention_dropout': 0.2259442500460414, 'ffn_dropout': 0.43473764592393055, 'd_ffn_factor': 1.9665786613436915, 'lr': 0.0014418373709452529}. Best is trial 0 with value: 1.0.
+[I 2025-11-21 01:45:01,685] A new study created in memory with name: no-name-ee486f87-caa4-45dd-8b45-9d94186a082a
+[I 2025-11-21 01:45:19,334] Trial 0 finished with value: 0.30847851335656207 and parameters: {'d_token': 64, 'n_layers': 4, 'attention_dropout': 0.001670824005039151, 'ffn_dropout': 0.09348938684033531, 'd_ffn_factor': 2.939668368423125, 'lr': 0.0007742639215165197}. Best is trial 0 with value: 0.30847851335656207.
+[I 2025-11-21 01:45:51,830] Trial 1 finished with value: 0.32543554006968645 and parameters: {'d_token': 224, 'n_layers': 4, 'attention_dropout': 0.31540114422387583, 'ffn_dropout': 0.20650898412314134, 'd_ffn_factor': 1.2327525671176096, 'lr': 0.00022602179387186475}. Best is trial 1 with value: 0.32543554006968645.
+[I 2025-11-21 01:46:45,806] Trial 2 finished with value: 0.3304297328687572 and parameters: {'d_token': 256, 'n_layers': 4, 'attention_dropout': 0.47872153896888314, 'ffn_dropout': 0.26710088757704037, 'd_ffn_factor': 2.658720606510871, 'lr': 0.002735600102303156}. Best is trial 2 with value: 0.3304297328687572.
+[I 2025-11-21 01:47:29,746] Trial 3 finished with value: 0.32299651567944243 and parameters: {'d_token': 256, 'n_layers': 4, 'attention_dropout': 0.10482134889364308, 'ffn_dropout': 0.44613994478713087, 'd_ffn_factor': 1.7639878314723325, 'lr': 0.0019233124944812914}. Best is trial 2 with value: 0.3304297328687572.
+[I 2025-11-21 01:47:38,292] Trial 4 finished with value: 0.2870499419279907 and parameters: {'d_token': 64, 'n_layers': 2, 'attention_dropout': 0.024972130538747528, 'ffn_dropout': 0.06249547414660889, 'd_ffn_factor': 2.96836269951391, 'lr': 0.00019954964314659635}. Best is trial 2 with value: 0.3304297328687572.
+[I 2025-11-21 01:48:13,939] Trial 5 finished with value: 0.31556329849012776 and parameters: {'d_token': 224, 'n_layers': 4, 'attention_dropout': 0.12017096984643755, 'ffn_dropout': 0.4064043075007869, 'd_ffn_factor': 2.326424836763304, 'lr': 0.00018592634897470202}. Best is trial 2 with value: 0.3304297328687572.
+[I 2025-11-21 01:48:53,199] Trial 6 finished with value: 0.3397793263646922 and parameters: {'d_token': 192, 'n_layers': 4, 'attention_dropout': 0.12938134529336243, 'ffn_dropout': 0.2316795758231961, 'd_ffn_factor': 2.2998033103934468, 'lr': 0.0008788527302374904}. Best is trial 6 with value: 0.3397793263646922.
+[I 2025-11-21 01:48:54,945] Trial 7 pruned. 
+[I 2025-11-21 01:48:55,856] Trial 8 pruned. 
+[I 2025-11-21 01:49:09,388] Trial 9 pruned. 
+[I 2025-11-21 01:49:12,046] Trial 10 pruned. 
+[I 2025-11-21 01:49:15,334] Trial 11 pruned. 
+[I 2025-11-21 01:49:17,457] Trial 12 pruned. 
+[I 2025-11-21 01:49:20,958] Trial 13 pruned. 
+[I 2025-11-21 01:49:46,433] Trial 14 finished with value: 0.3324622531939606 and parameters: {'d_token': 192, 'n_layers': 3, 'attention_dropout': 0.18151418418103493, 'ffn_dropout': 0.1923496702625263, 'd_ffn_factor': 2.5741116639467903, 'lr': 0.0013333031974059387}. Best is trial 6 with value: 0.3397793263646922.
+[I 2025-11-21 01:49:48,385] Trial 15 pruned. 
+[I 2025-11-21 01:49:49,659] Trial 16 pruned. 
+[I 2025-11-21 01:50:09,189] Trial 17 finished with value: 0.33013937282229955 and parameters: {'d_token': 128, 'n_layers': 3, 'attention_dropout': 0.31644859541559556, 'ffn_dropout': 0.3249481340913506, 'd_ffn_factor': 2.3843589473391145, 'lr': 0.0008345494929134275}. Best is trial 6 with value: 0.3397793263646922.
+[I 2025-11-21 01:50:23,148] Trial 18 finished with value: 0.3206736353077816 and parameters: {'d_token': 192, 'n_layers': 2, 'attention_dropout': 0.18315737398900572, 'ffn_dropout': 0.12362506518619663, 'd_ffn_factor': 2.086208391132878, 'lr': 0.001502386377830277}. Best is trial 6 with value: 0.3397793263646922.
+[I 2025-11-21 01:50:25,006] Trial 19 pruned. 
+[I 2025-11-21 01:50:36,487] Trial 20 pruned. 
+[I 2025-11-21 01:50:44,464] Trial 21 pruned. 
+[I 2025-11-21 01:50:49,476] Trial 22 pruned. 
+[I 2025-11-21 01:50:52,350] Trial 23 pruned. 
+[I 2025-11-21 01:50:56,110] Trial 24 pruned. 
+[I 2025-11-21 01:51:23,909] Trial 25 pruned. 
+[I 2025-11-21 01:51:28,900] Trial 26 pruned. 
+[I 2025-11-21 01:51:29,991] Trial 27 pruned. 
+[I 2025-11-21 01:52:02,621] Trial 28 finished with value: 0.3279907084785133 and parameters: {'d_token': 224, 'n_layers': 3, 'attention_dropout': 0.2051449957286542, 'ffn_dropout': 0.1853236989188038, 'd_ffn_factor': 2.6339927841873902, 'lr': 0.0014076424399359936}. Best is trial 6 with value: 0.3397793263646922.
+[I 2025-11-21 01:52:34,844] Trial 29 finished with value: 0.33252032520325203 and parameters: {'d_token': 192, 'n_layers': 4, 'attention_dropout': 0.029540546861621386, 'ffn_dropout': 0.09295967485546622, 'd_ffn_factor': 2.886840846363625, 'lr': 0.0007137907363438464}. Best is trial 6 with value: 0.3397793263646922.
+[I 2025-11-21 01:52:59,935] Trial 30 finished with value: 0.3350174216027874 and parameters: {'d_token': 160, 'n_layers': 3, 'attention_dropout': 0.034732828427454246, 'ffn_dropout': 0.0737153202567772, 'd_ffn_factor': 2.9165787679856225, 'lr': 0.0004881573174762243}. Best is trial 6 with value: 0.3397793263646922.
+[I 2025-11-21 01:53:26,798] Trial 31 finished with value: 0.3421602787456446 and parameters: {'d_token': 160, 'n_layers': 3, 'attention_dropout': 0.013000060273161973, 'ffn_dropout': 0.06861472796937228, 'd_ffn_factor': 2.8972165279000808, 'lr': 0.0007016025751414572}. Best is trial 31 with value: 0.3421602787456446.
+[I 2025-11-21 01:53:28,462] Trial 32 pruned. 
+[I 2025-11-21 01:53:30,890] Trial 33 pruned. 
+[I 2025-11-21 01:53:32,182] Trial 34 pruned. 
+[I 2025-11-21 01:53:36,856] Trial 35 pruned. 
+[I 2025-11-21 01:53:38,970] Trial 36 pruned. 
+[I 2025-11-21 01:53:40,605] Trial 37 pruned. 
+[I 2025-11-21 01:53:41,860] Trial 38 pruned. 
+[I 2025-11-21 01:54:21,151] Trial 39 finished with value: 0.31567944250871083 and parameters: {'d_token': 192, 'n_layers': 4, 'attention_dropout': 0.1148171535837047, 'ffn_dropout': 0.0965207461276264, 'd_ffn_factor': 2.985940550891406, 'lr': 0.0004060446703817377}. Best is trial 31 with value: 0.3421602787456446.
+[I 2025-11-21 01:54:22,642] Trial 40 pruned. 
+[I 2025-11-21 01:54:44,502] Trial 41 finished with value: 0.34709639953542387 and parameters: {'d_token': 192, 'n_layers': 3, 'attention_dropout': 0.12871777391898406, 'ffn_dropout': 0.030599502655187016, 'd_ffn_factor': 2.8755179885337183, 'lr': 0.0009220246488039661}. Best is trial 41 with value: 0.34709639953542387.
+[I 2025-11-21 01:54:47,965] Trial 42 pruned. 
+[I 2025-11-21 01:55:12,122] Trial 43 finished with value: 0.3229965156794425 and parameters: {'d_token': 192, 'n_layers': 3, 'attention_dropout': 0.10402356876969382, 'ffn_dropout': 0.0821152107720228, 'd_ffn_factor': 2.7994020609165613, 'lr': 0.0007682485675590695}. Best is trial 41 with value: 0.34709639953542387.
+[I 2025-11-21 01:55:15,154] Trial 44 pruned. 
+[I 2025-11-21 01:55:17,665] Trial 45 pruned. 
+[I 2025-11-21 01:55:18,920] Trial 46 pruned. 
+[I 2025-11-21 01:55:21,099] Trial 47 pruned. 
+[I 2025-11-21 01:55:23,057] Trial 48 pruned. 
+[I 2025-11-21 01:55:28,782] Trial 49 pruned. 
+[I 2025-11-21 01:55:28,940] A new study created in memory with name: no-name-cab69075-ab87-4853-8e17-f55093fdd63c
+[I 2025-11-21 02:11:08,997] Trial 0 finished with value: 0.9911764705882353 and parameters: {'d_token': 128, 'n_layers': 4, 'attention_dropout': 0.09817351958630277, 'ffn_dropout': 0.1040465125120279, 'd_ffn_factor': 1.0779933850702972, 'lr': 0.0019772545513112643}. Best is trial 0 with value: 0.9911764705882353.
+[I 2025-11-21 02:24:20,066] Trial 1 finished with value: 0.9882352941176471 and parameters: {'d_token': 192, 'n_layers': 3, 'attention_dropout': 0.2805990750673088, 'ffn_dropout': 0.008766100885533756, 'd_ffn_factor': 1.3977987675312502, 'lr': 0.0015495925432100004}. Best is trial 0 with value: 0.9911764705882353.
+[I 2025-11-21 02:48:16,852] Trial 2 finished with value: 0.9985294117647058 and parameters: {'d_token': 256, 'n_layers': 3, 'attention_dropout': 0.07667236526051596, 'ffn_dropout': 0.2677367194686564, 'd_ffn_factor': 2.1722798611846628, 'lr': 0.00010307063392477772}. Best is trial 2 with value: 0.9985294117647058.
+[I 2025-11-21 03:16:10,394] Trial 3 finished with value: 0.9985294117647058 and parameters: {'d_token': 224, 'n_layers': 3, 'attention_dropout': 0.4667181954479296, 'ffn_dropout': 0.35414011898458264, 'd_ffn_factor': 2.862599695194597, 'lr': 0.0002280274130241431}. Best is trial 2 with value: 0.9985294117647058.
+[I 2025-11-21 03:51:07,852] Trial 4 finished with value: 0.9911764705882353 and parameters: {'d_token': 224, 'n_layers': 3, 'attention_dropout': 0.25269176766568674, 'ffn_dropout': 0.46712834224202654, 'd_ffn_factor': 2.3984235125645803, 'lr': 0.00010347425557888219}. Best is trial 2 with value: 0.9985294117647058.
+[I 2025-11-21 04:05:36,122] Trial 5 finished with value: 0.9955882352941178 and parameters: {'d_token': 224, 'n_layers': 3, 'attention_dropout': 0.23138740819225495, 'ffn_dropout': 0.17566187812357087, 'd_ffn_factor': 1.3893443528475902, 'lr': 0.00032561597354304785}. Best is trial 2 with value: 0.9985294117647058.
+[I 2025-11-21 04:29:13,860] Trial 6 finished with value: 0.9897058823529411 and parameters: {'d_token': 192, 'n_layers': 3, 'attention_dropout': 0.3973686311274488, 'ffn_dropout': 0.09267941490531623, 'd_ffn_factor': 2.2630955583115484, 'lr': 0.0028282570414863294}. Best is trial 2 with value: 0.9985294117647058.
+[I 2025-11-21 04:30:00,540] Trial 7 pruned. 
+[I 2025-11-21 04:32:23,401] Trial 8 pruned. 
+[I 2025-11-21 04:46:46,735] Trial 9 finished with value: 0.9926470588235293 and parameters: {'d_token': 224, 'n_layers': 2, 'attention_dropout': 0.4600905903202926, 'ffn_dropout': 0.46983415868287504, 'd_ffn_factor': 2.38611042615001, 'lr': 0.0009102033354225064}. Best is trial 2 with value: 0.9985294117647058.
+[I 2025-11-21 05:19:34,573] Trial 10 finished with value: 0.9808823529411764 and parameters: {'d_token': 256, 'n_layers': 4, 'attention_dropout': 0.018622155201142236, 'ffn_dropout': 0.35398670138395383, 'd_ffn_factor': 2.981422826301766, 'lr': 0.0007545890366324115}. Best is trial 2 with value: 0.9985294117647058.
+[I 2025-11-21 05:35:04,995] Trial 11 finished with value: 0.9926470588235293 and parameters: {'d_token': 256, 'n_layers': 2, 'attention_dropout': 0.3668853150915273, 'ffn_dropout': 0.349719137623406, 'd_ffn_factor': 2.9247439638067343, 'lr': 0.00021294177887946694}. Best is trial 2 with value: 0.9985294117647058.
+[I 2025-11-21 06:02:11,418] Trial 12 finished with value: 0.9970588235294118 and parameters: {'d_token': 160, 'n_layers': 3, 'attention_dropout': 0.4998322759963212, 'ffn_dropout': 0.33734495531488157, 'd_ffn_factor': 2.783432143623335, 'lr': 0.00017764912491485132}. Best is trial 2 with value: 0.9985294117647058.
+[I 2025-11-21 06:19:26,497] Trial 13 finished with value: 0.9970588235294118 and parameters: {'d_token': 256, 'n_layers': 3, 'attention_dropout': 0.06537033550106701, 'ffn_dropout': 0.2851752255447583, 'd_ffn_factor': 1.844700430985354, 'lr': 0.0002160092660496023}. Best is trial 2 with value: 0.9985294117647058.
+[I 2025-11-21 06:48:08,296] Trial 14 finished with value: 0.9985294117647058 and parameters: {'d_token': 192, 'n_layers': 4, 'attention_dropout': 0.16953893417369956, 'ffn_dropout': 0.40251368698271106, 'd_ffn_factor': 2.616573425005664, 'lr': 0.0003201360200777046}. Best is trial 2 with value: 0.9985294117647058.
+[I 2025-11-21 06:49:16,079] Trial 15 pruned. 
+[I 2025-11-21 07:15:11,514] Trial 16 finished with value: 0.9955882352941178 and parameters: {'d_token': 224, 'n_layers': 3, 'attention_dropout': 0.16481271675031128, 'ffn_dropout': 0.43070256819240316, 'd_ffn_factor': 2.6479802050974586, 'lr': 0.00016753567382629558}. Best is trial 2 with value: 0.9985294117647058.
+[I 2025-11-21 07:35:49,465] Trial 17 finished with value: 0.9970588235294118 and parameters: {'d_token': 256, 'n_layers': 3, 'attention_dropout': 0.3171148274489702, 'ffn_dropout': 0.2936105517866918, 'd_ffn_factor': 2.0609264647786336, 'lr': 0.0002620436490550896}. Best is trial 2 with value: 0.9985294117647058.
+[I 2025-11-21 07:56:33,841] Trial 18 finished with value: 0.9941176470588236 and parameters: {'d_token': 192, 'n_layers': 4, 'attention_dropout': 0.09583722683466112, 'ffn_dropout': 0.14793428110130352, 'd_ffn_factor': 2.6092457215030143, 'lr': 0.0005549976931545035}. Best is trial 2 with value: 0.9985294117647058.
+[I 2025-11-21 07:57:31,188] Trial 19 pruned. 
+[I 2025-11-21 08:13:17,996] Trial 20 finished with value: 0.9955882352941178 and parameters: {'d_token': 224, 'n_layers': 3, 'attention_dropout': 0.20801294446816102, 'ffn_dropout': 0.2464522286950102, 'd_ffn_factor': 2.153005856844571, 'lr': 0.00046832338228914764}. Best is trial 2 with value: 0.9985294117647058.
+[I 2025-11-21 08:38:37,285] Trial 21 finished with value: 0.9955882352941178 and parameters: {'d_token': 192, 'n_layers': 4, 'attention_dropout': 0.1588498892314235, 'ffn_dropout': 0.3973446101163673, 'd_ffn_factor': 2.5023321551321303, 'lr': 0.0002991182868773123}. Best is trial 2 with value: 0.9985294117647058.
+[I 2025-11-21 09:03:24,147] Trial 22 finished with value: 0.9985294117647058 and parameters: {'d_token': 192, 'n_layers': 4, 'attention_dropout': 0.12212653587638095, 'ffn_dropout': 0.3091455775147986, 'd_ffn_factor': 2.7436854596754836, 'lr': 0.00034233028953139377}. Best is trial 2 with value: 0.9985294117647058.
+[I 2025-11-21 09:25:21,835] Trial 23 finished with value: 0.9926470588235293 and parameters: {'d_token': 256, 'n_layers': 3, 'attention_dropout': 0.04783683151224473, 'ffn_dropout': 0.395382812185501, 'd_ffn_factor': 2.8894458050230476, 'lr': 0.0006785539979217008}. Best is trial 2 with value: 0.9985294117647058.
+[I 2025-11-21 09:58:47,393] Trial 24 finished with value: 0.9926470588235293 and parameters: {'d_token': 224, 'n_layers': 4, 'attention_dropout': 0.19324872227390721, 'ffn_dropout': 0.49375539648164424, 'd_ffn_factor': 2.5235287789401264, 'lr': 0.0002333263927089235}. Best is trial 2 with value: 0.9985294117647058.
+[I 2025-11-21 10:18:25,818] Trial 25 finished with value: 0.9911764705882353 and parameters: {'d_token': 160, 'n_layers': 3, 'attention_dropout': 0.12592227198210915, 'ffn_dropout': 0.33897532956603543, 'd_ffn_factor': 2.7468307657381565, 'lr': 0.0001565674364936096}. Best is trial 2 with value: 0.9985294117647058.
+[I 2025-11-21 10:49:31,220] Trial 26 finished with value: 0.9897058823529411 and parameters: {'d_token': 224, 'n_layers': 4, 'attention_dropout': 0.43496646208297185, 'ffn_dropout': 0.4181652835281771, 'd_ffn_factor': 2.350033503208131, 'lr': 0.0004046720997675855}. Best is trial 2 with value: 0.9985294117647058.
+[I 2025-11-21 11:11:55,901] Trial 27 finished with value: 0.9941176470588236 and parameters: {'d_token': 160, 'n_layers': 3, 'attention_dropout': 0.33919552830309446, 'ffn_dropout': 0.37234815487014167, 'd_ffn_factor': 2.004231711530141, 'lr': 0.00019542399595303534}. Best is trial 2 with value: 0.9985294117647058.
+[I 2025-11-21 11:34:15,207] Trial 28 finished with value: 0.9941176470588236 and parameters: {'d_token': 256, 'n_layers': 3, 'attention_dropout': 0.05387591912683552, 'ffn_dropout': 0.2438501455594853, 'd_ffn_factor': 2.559835609496629, 'lr': 0.00010246369348083378}. Best is trial 2 with value: 0.9985294117647058.
+[I 2025-11-21 11:48:43,271] Trial 29 finished with value: 0.9941176470588236 and parameters: {'d_token': 128, 'n_layers': 4, 'attention_dropout': 0.10112102030777145, 'ffn_dropout': 0.32086377899941426, 'd_ffn_factor': 1.1115934331615231, 'lr': 0.0011040764062011333}. Best is trial 2 with value: 0.9985294117647058.
+[I 2025-11-21 12:15:59,823] Trial 30 finished with value: 0.9941176470588236 and parameters: {'d_token': 192, 'n_layers': 4, 'attention_dropout': 0.245426950608674, 'ffn_dropout': 0.4394128550083914, 'd_ffn_factor': 2.8012270845295784, 'lr': 0.0005348757358405612}. Best is trial 2 with value: 0.9985294117647058.
+[I 2025-11-21 12:41:03,496] Trial 31 finished with value: 1.0 and parameters: {'d_token': 192, 'n_layers': 4, 'attention_dropout': 0.12984990830827267, 'ffn_dropout': 0.3077871953696656, 'd_ffn_factor': 2.734671124029948, 'lr': 0.00031593227269040443}. Best is trial 31 with value: 1.0.
+[I 2025-11-21 13:02:41,282] Trial 32 finished with value: 0.9926470588235293 and parameters: {'d_token': 192, 'n_layers': 4, 'attention_dropout': 0.08147454942361762, 'ffn_dropout': 0.2667596398567682, 'd_ffn_factor': 2.7097240162442495, 'lr': 0.00035555761881517954}. Best is trial 31 with value: 1.0.
+[I 2025-11-21 13:31:24,129] Trial 33 finished with value: 0.9970588235294118 and parameters: {'d_token': 224, 'n_layers': 4, 'attention_dropout': 0.19251631141990305, 'ffn_dropout': 0.37155648147943054, 'd_ffn_factor': 2.4532819852370666, 'lr': 0.0002675621029356728}. Best is trial 31 with value: 1.0.
