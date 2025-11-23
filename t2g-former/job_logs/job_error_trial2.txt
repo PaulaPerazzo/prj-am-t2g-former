@@ -1,0 +1,39 @@
+[I 2025-11-22 16:23:07,759] A new study created in memory with name: no-name-89f01228-83cb-49c1-943f-64acf7fa19ab
+[I 2025-11-22 18:12:54,767] Trial 0 finished with value: 0.9272277227722772 and parameters: {'d_token': 128, 'n_layers': 3, 'attention_dropout': 0.48157951231642887, 'ffn_dropout': 0.22739507713611962, 'd_ffn_factor': 1.4032466874368745, 'lr': 0.0005967727666440094}. Best is trial 0 with value: 0.9272277227722772.
+[I 2025-11-22 19:31:17,975] Trial 1 finished with value: 0.9322277227722772 and parameters: {'d_token': 64, 'n_layers': 3, 'attention_dropout': 0.13876629538985458, 'ffn_dropout': 0.21442387798530316, 'd_ffn_factor': 1.1565476486886803, 'lr': 0.0020161911213431713}. Best is trial 1 with value: 0.9322277227722772.
+[I 2025-11-22 21:22:28,036] Trial 2 finished with value: 0.93519801980198 and parameters: {'d_token': 224, 'n_layers': 3, 'attention_dropout': 0.12548347134001686, 'ffn_dropout': 0.3218169008675807, 'd_ffn_factor': 1.930543839637994, 'lr': 0.00029966498777277275}. Best is trial 2 with value: 0.93519801980198.
+[I 2025-11-22 22:19:49,372] Trial 3 finished with value: 0.9421782178217821 and parameters: {'d_token': 160, 'n_layers': 2, 'attention_dropout': 0.3683331360129886, 'ffn_dropout': 0.17710738494746225, 'd_ffn_factor': 1.633611828078768, 'lr': 0.000594860481730451}. Best is trial 3 with value: 0.9421782178217821.
+[I 2025-11-23 01:28:56,969] Trial 4 finished with value: 0.9132970297029702 and parameters: {'d_token': 160, 'n_layers': 4, 'attention_dropout': 0.37205525143106466, 'ffn_dropout': 0.21081259672543257, 'd_ffn_factor': 2.480754362626283, 'lr': 0.0019866060504857264}. Best is trial 3 with value: 0.9421782178217821.
+[I 2025-11-23 02:50:52,514] Trial 5 finished with value: 0.9431881188118811 and parameters: {'d_token': 256, 'n_layers': 2, 'attention_dropout': 0.4473429362904496, 'ffn_dropout': 0.23461816665634272, 'd_ffn_factor': 2.033460685806774, 'lr': 0.00042780530424860343}. Best is trial 5 with value: 0.9431881188118811.
+[I 2025-11-23 03:01:21,451] Trial 6 pruned. 
+[I 2025-11-23 03:12:14,440] Trial 7 pruned. 
+[I 2025-11-23 03:27:51,256] Trial 8 pruned. 
+[I 2025-11-23 03:36:21,509] Trial 9 pruned. 
+[I 2025-11-23 03:41:51,092] Trial 10 pruned. 
+[I 2025-11-23 03:47:03,195] Trial 11 pruned. 
+[I 2025-11-23 04:38:24,152] Trial 12 finished with value: 0.940188118811881 and parameters: {'d_token': 160, 'n_layers': 2, 'attention_dropout': 0.2772522661352038, 'ffn_dropout': 0.13738245196001464, 'd_ffn_factor': 1.6658489035459798, 'lr': 0.0009137868106720142}. Best is trial 5 with value: 0.9431881188118811.
+[I 2025-11-23 04:47:49,198] Trial 13 pruned. 
+[I 2025-11-23 04:51:14,199] Trial 14 pruned. 
+[I 2025-11-23 04:56:49,385] Trial 15 pruned. 
+[I 2025-11-23 06:32:42,454] Trial 16 finished with value: 0.9292376237623762 and parameters: {'d_token': 160, 'n_layers': 2, 'attention_dropout': 0.42684199821883817, 'ffn_dropout': 0.14884392389049392, 'd_ffn_factor': 2.2102691161959207, 'lr': 0.0001046964516727463}. Best is trial 5 with value: 0.9431881188118811.
+[I 2025-11-23 07:46:40,553] Trial 17 finished with value: 0.9321782178217823 and parameters: {'d_token': 224, 'n_layers': 2, 'attention_dropout': 0.3208827724544548, 'ffn_dropout': 0.4768560305047524, 'd_ffn_factor': 1.3540069259197014, 'lr': 0.0006330213794922566}. Best is trial 5 with value: 0.9431881188118811.
+[I 2025-11-23 07:51:59,270] Trial 18 pruned. 
+[I 2025-11-23 08:20:03,137] Trial 19 pruned. 
+[I 2025-11-23 08:32:18,625] Trial 20 pruned. 
+[I 2025-11-23 08:36:48,174] Trial 21 pruned. 
+[I 2025-11-23 08:40:41,224] Trial 22 pruned. 
+[I 2025-11-23 08:51:26,517] Trial 23 pruned. 
+[I 2025-11-23 08:57:31,043] Trial 24 pruned. 
+[I 2025-11-23 09:01:46,930] Trial 25 pruned. 
+[I 2025-11-23 09:06:11,636] Trial 26 pruned. 
+[I 2025-11-23 09:20:46,765] Trial 27 pruned. 
+[I 2025-11-23 09:25:21,566] Trial 28 pruned. 
+[I 2025-11-23 09:36:03,861] Trial 29 pruned. 
+[I 2025-11-23 10:51:54,344] Trial 30 finished with value: 0.9381881188118811 and parameters: {'d_token': 160, 'n_layers': 2, 'attention_dropout': 0.49852887430434234, 'ffn_dropout': 0.24699738353105988, 'd_ffn_factor': 2.7358929867121993, 'lr': 0.001015050634984311}. Best is trial 5 with value: 0.9431881188118811.
+[I 2025-11-23 11:02:56,422] Trial 31 pruned. 
+[I 2025-11-23 11:08:53,647] Trial 32 pruned. 
+[I 2025-11-23 11:14:17,312] Trial 33 pruned. 
+[I 2025-11-23 11:38:22,334] Trial 34 pruned. 
+[I 2025-11-23 11:42:48,139] Trial 35 pruned. 
+[I 2025-11-23 11:58:39,824] Trial 36 pruned. 
+slurmstepd: error: *** JOB 29908 ON cluster-node5 CANCELLED AT 2025-11-23T12:43:16 ***
