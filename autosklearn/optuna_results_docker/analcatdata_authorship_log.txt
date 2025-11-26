@@ -1,0 +1,24 @@
+[2025-11-25 13:55:22] [analcatdata_authorship] === Início random search (10 trials) ===
+[2025-11-25 13:55:22] [analcatdata_authorship] Trial 1/10 | time_left=40s, per_run=10s, ensemble_size=5, train_size=0.8, memory=3072MB
+[2025-11-25 13:55:57] [analcatdata_authorship] Trial 1 finalizado | g-mean=0.9833 | tempo=35.3s
+[2025-11-25 13:55:57] [analcatdata_authorship] ★ Novo best_score=0.9833 salvo em optuna_results/analcatdata_authorship_random_search.json
+[2025-11-25 13:55:57] [analcatdata_authorship] Trial 2/10 | time_left=30s, per_run=10s, ensemble_size=1, train_size=0.7, memory=4096MB
+[2025-11-25 13:56:23] [analcatdata_authorship] Trial 2 finalizado | g-mean=0.9938 | tempo=25.5s
+[2025-11-25 13:56:23] [analcatdata_authorship] ★ Novo best_score=0.9938 salvo em optuna_results/analcatdata_authorship_random_search.json
+[2025-11-25 13:56:23] [analcatdata_authorship] Trial 3/10 | time_left=20s, per_run=10s, ensemble_size=1, train_size=0.7, memory=2048MB
+[2025-11-25 13:56:23] [analcatdata_authorship] Trial 3 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 13:56:23] [analcatdata_authorship] Trial 4/10 | time_left=20s, per_run=10s, ensemble_size=5, train_size=0.8, memory=2048MB
+[2025-11-25 13:56:23] [analcatdata_authorship] Trial 4 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 13:56:23] [analcatdata_authorship] Trial 5/10 | time_left=20s, per_run=10s, ensemble_size=1, train_size=0.8, memory=2048MB
+[2025-11-25 13:56:23] [analcatdata_authorship] Trial 5 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 13:56:23] [analcatdata_authorship] Trial 6/10 | time_left=30s, per_run=5s, ensemble_size=1, train_size=0.8, memory=2048MB
+[2025-11-25 13:56:48] [analcatdata_authorship] Trial 6 finalizado | g-mean=0.9938 | tempo=25.1s
+[2025-11-25 13:56:48] [analcatdata_authorship] Trial 7/10 | time_left=20s, per_run=10s, ensemble_size=1, train_size=0.8, memory=2048MB
+[2025-11-25 13:56:48] [analcatdata_authorship] Trial 7 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 13:56:48] [analcatdata_authorship] Trial 8/10 | time_left=20s, per_run=10s, ensemble_size=5, train_size=0.8, memory=3072MB
+[2025-11-25 13:56:48] [analcatdata_authorship] Trial 8 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 13:56:48] [analcatdata_authorship] Trial 9/10 | time_left=30s, per_run=5s, ensemble_size=1, train_size=0.8, memory=3072MB
+[2025-11-25 13:57:15] [analcatdata_authorship] Trial 9 finalizado | g-mean=0.9938 | tempo=27.0s
+[2025-11-25 13:57:15] [analcatdata_authorship] Trial 10/10 | time_left=20s, per_run=5s, ensemble_size=5, train_size=0.8, memory=2048MB
+[2025-11-25 13:57:15] [analcatdata_authorship] Trial 10 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 13:57:15] [analcatdata_authorship] === Fim random search | best_score=0.9938 ===

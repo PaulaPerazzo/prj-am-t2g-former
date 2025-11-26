@@ -1,0 +1,24 @@
+[2025-11-25 13:45:42] [pc1] === Início random search (10 trials) ===
+[2025-11-25 13:45:42] [pc1] Trial 1/10 | time_left=40s, per_run=5s, ensemble_size=1, train_size=0.8, memory=4096MB
+[2025-11-25 13:46:16] [pc1] Trial 1 finalizado | g-mean=0.0000 | tempo=34.6s
+[2025-11-25 13:46:16] [pc1] ★ Novo best_score=0.0000 salvo em optuna_results/pc1_random_search.json
+[2025-11-25 13:46:16] [pc1] Trial 2/10 | time_left=30s, per_run=10s, ensemble_size=1, train_size=0.7, memory=2048MB
+[2025-11-25 13:46:42] [pc1] Trial 2 finalizado | g-mean=0.4472 | tempo=26.0s
+[2025-11-25 13:46:42] [pc1] ★ Novo best_score=0.4472 salvo em optuna_results/pc1_random_search.json
+[2025-11-25 13:46:42] [pc1] Trial 3/10 | time_left=30s, per_run=5s, ensemble_size=1, train_size=0.8, memory=4096MB
+[2025-11-25 13:47:06] [pc1] Trial 3 finalizado | g-mean=0.0000 | tempo=23.8s
+[2025-11-25 13:47:06] [pc1] Trial 4/10 | time_left=40s, per_run=10s, ensemble_size=5, train_size=0.7, memory=2048MB
+[2025-11-25 13:47:42] [pc1] Trial 4 finalizado | g-mean=0.4472 | tempo=36.1s
+[2025-11-25 13:47:42] [pc1] Trial 5/10 | time_left=40s, per_run=5s, ensemble_size=1, train_size=0.8, memory=4096MB
+[2025-11-25 13:48:17] [pc1] Trial 5 finalizado | g-mean=0.0000 | tempo=34.4s
+[2025-11-25 13:48:17] [pc1] Trial 6/10 | time_left=40s, per_run=5s, ensemble_size=1, train_size=0.8, memory=4096MB
+[2025-11-25 13:48:53] [pc1] Trial 6 finalizado | g-mean=0.0000 | tempo=36.2s
+[2025-11-25 13:48:53] [pc1] Trial 7/10 | time_left=30s, per_run=10s, ensemble_size=1, train_size=0.8, memory=2048MB
+[2025-11-25 13:49:18] [pc1] Trial 7 finalizado | g-mean=0.0000 | tempo=24.9s
+[2025-11-25 13:49:18] [pc1] Trial 8/10 | time_left=30s, per_run=10s, ensemble_size=1, train_size=0.8, memory=3072MB
+[2025-11-25 13:49:44] [pc1] Trial 8 finalizado | g-mean=0.0000 | tempo=26.1s
+[2025-11-25 13:49:44] [pc1] Trial 9/10 | time_left=40s, per_run=10s, ensemble_size=1, train_size=0.8, memory=2048MB
+[2025-11-25 13:50:19] [pc1] Trial 9 finalizado | g-mean=0.0000 | tempo=35.3s
+[2025-11-25 13:50:19] [pc1] Trial 10/10 | time_left=40s, per_run=10s, ensemble_size=5, train_size=0.8, memory=3072MB
+[2025-11-25 13:50:55] [pc1] Trial 10 finalizado | g-mean=0.0000 | tempo=35.3s
+[2025-11-25 13:50:55] [pc1] === Fim random search | best_score=0.4472 ===

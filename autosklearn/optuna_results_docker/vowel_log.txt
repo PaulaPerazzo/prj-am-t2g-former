@@ -1,0 +1,23 @@
+[2025-11-25 16:49:19] [vowel] === Início random search ACC (10 trials) ===
+[2025-11-25 16:49:19] [vowel] Trial 1/10 | time_left=40s, per_run=10s, ensemble=5, train_size=0.7, memory=4096MB
+[2025-11-25 16:49:53] [vowel] Trial 1 finalizado | ACC=0.9424 | tempo=34.1s
+[2025-11-25 16:49:53] [vowel] ★ Novo best_score=0.9424 salvo!
+[2025-11-25 16:49:53] [vowel] Trial 2/10 | time_left=30s, per_run=10s, ensemble=5, train_size=0.7, memory=4096MB
+[2025-11-25 16:50:19] [vowel] Trial 2 finalizado | ACC=0.9281 | tempo=26.4s
+[2025-11-25 16:50:19] [vowel] Trial 3/10 | time_left=30s, per_run=10s, ensemble=1, train_size=0.8, memory=3072MB
+[2025-11-25 16:50:44] [vowel] Trial 3 finalizado | ACC=0.9281 | tempo=24.3s
+[2025-11-25 16:50:44] [vowel] Trial 4/10 | time_left=20s, per_run=10s, ensemble=1, train_size=0.8, memory=3072MB
+[2025-11-25 16:50:44] [vowel] Trial 4 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 16:50:44] [vowel] Trial 5/10 | time_left=30s, per_run=5s, ensemble=1, train_size=0.7, memory=2048MB
+[2025-11-25 16:51:07] [vowel] Trial 5 finalizado | ACC=0.9281 | tempo=23.7s
+[2025-11-25 16:51:07] [vowel] Trial 6/10 | time_left=30s, per_run=5s, ensemble=1, train_size=0.7, memory=3072MB
+[2025-11-25 16:51:31] [vowel] Trial 6 finalizado | ACC=0.9281 | tempo=23.7s
+[2025-11-25 16:51:31] [vowel] Trial 7/10 | time_left=30s, per_run=10s, ensemble=5, train_size=0.8, memory=2048MB
+[2025-11-25 16:51:55] [vowel] Trial 7 finalizado | ACC=0.9424 | tempo=24.3s
+[2025-11-25 16:51:55] [vowel] Trial 8/10 | time_left=20s, per_run=10s, ensemble=5, train_size=0.7, memory=4096MB
+[2025-11-25 16:51:55] [vowel] Trial 8 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 16:51:55] [vowel] Trial 9/10 | time_left=30s, per_run=10s, ensemble=1, train_size=0.8, memory=3072MB
+[2025-11-25 16:52:20] [vowel] Trial 9 finalizado | ACC=0.9281 | tempo=24.1s
+[2025-11-25 16:52:20] [vowel] Trial 10/10 | time_left=30s, per_run=10s, ensemble=1, train_size=0.8, memory=2048MB
+[2025-11-25 16:52:44] [vowel] Trial 10 finalizado | ACC=0.9281 | tempo=24.8s
+[2025-11-25 16:52:44] [vowel] === Fim random search | BEST_ACC=0.9424 ===

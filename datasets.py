@@ -18,11 +18,11 @@ def split_dataset(file_path, filename):
     df = pd.read_csv(file_path)
 
     train_df, test_df = train_test_split(df, test_size=0.3, random_state=SEED)
-    train_df, val_df = train_test_split(train_df, test_size=0.1, random_state=SEED)
+    # train_df, val_df = train_test_split(train_df, test_size=0.1, random_state=SEED)
 
     train_df.to_csv(os.path.join(TRAIN_DIR, filename), index=False)
     test_df.to_csv(os.path.join(TEST_DIR, filename), index=False)
-    val_df.to_csv(os.path.join(VAL_DIR, filename), index=False)
+    # val_df.to_csv(os.path.join(VAL_DIR, filename), index=False)
 
 def main():
     count_dataset = 0

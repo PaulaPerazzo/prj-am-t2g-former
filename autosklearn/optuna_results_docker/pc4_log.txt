@@ -1,0 +1,25 @@
+[2025-11-25 13:16:42] [pc4] === Início random search (10 trials) ===
+[2025-11-25 13:16:42] [pc4] Trial 1/10 | time_left=40s, per_run=5s, ensemble_size=1, train_size=0.8, memory=4096MB
+[2025-11-25 13:17:17] [pc4] Trial 1 finalizado | g-mean=0.4060 | tempo=34.8s
+[2025-11-25 13:17:17] [pc4] ★ Novo best_score=0.4060 salvo em optuna_results/pc4_random_search.json
+[2025-11-25 13:17:17] [pc4] Trial 2/10 | time_left=20s, per_run=10s, ensemble_size=5, train_size=0.7, memory=4096MB
+[2025-11-25 13:17:17] [pc4] Trial 2 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 13:17:17] [pc4] Trial 3/10 | time_left=40s, per_run=5s, ensemble_size=5, train_size=0.8, memory=4096MB
+[2025-11-25 13:17:51] [pc4] Trial 3 finalizado | g-mean=0.4082 | tempo=34.2s
+[2025-11-25 13:17:51] [pc4] ★ Novo best_score=0.4082 salvo em optuna_results/pc4_random_search.json
+[2025-11-25 13:17:51] [pc4] Trial 4/10 | time_left=40s, per_run=10s, ensemble_size=5, train_size=0.8, memory=2048MB
+[2025-11-25 13:18:27] [pc4] Trial 4 finalizado | g-mean=0.4082 | tempo=36.0s
+[2025-11-25 13:18:27] [pc4] Trial 5/10 | time_left=20s, per_run=5s, ensemble_size=1, train_size=0.8, memory=2048MB
+[2025-11-25 13:18:27] [pc4] Trial 5 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 13:18:27] [pc4] Trial 6/10 | time_left=40s, per_run=5s, ensemble_size=1, train_size=0.7, memory=2048MB
+[2025-11-25 13:19:03] [pc4] Trial 6 finalizado | g-mean=0.5355 | tempo=35.3s
+[2025-11-25 13:19:03] [pc4] ★ Novo best_score=0.5355 salvo em optuna_results/pc4_random_search.json
+[2025-11-25 13:19:03] [pc4] Trial 7/10 | time_left=40s, per_run=5s, ensemble_size=1, train_size=0.7, memory=2048MB
+[2025-11-25 13:19:36] [pc4] Trial 7 finalizado | g-mean=0.5355 | tempo=33.8s
+[2025-11-25 13:19:36] [pc4] Trial 8/10 | time_left=30s, per_run=5s, ensemble_size=1, train_size=0.8, memory=4096MB
+[2025-11-25 13:20:01] [pc4] Trial 8 finalizado | g-mean=0.4060 | tempo=24.7s
+[2025-11-25 13:20:01] [pc4] Trial 9/10 | time_left=30s, per_run=5s, ensemble_size=1, train_size=0.8, memory=2048MB
+[2025-11-25 13:20:25] [pc4] Trial 9 finalizado | g-mean=0.4060 | tempo=23.9s
+[2025-11-25 13:20:25] [pc4] Trial 10/10 | time_left=30s, per_run=10s, ensemble_size=1, train_size=0.7, memory=2048MB
+[2025-11-25 13:20:49] [pc4] Trial 10 finalizado | g-mean=0.5000 | tempo=24.5s
+[2025-11-25 13:20:49] [pc4] === Fim random search | best_score=0.5355 ===
