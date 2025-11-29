@@ -1,0 +1,10 @@
+{
+    "trial_number": 15,
+    "params": {
+        "time_left_for_this_task": 300,
+        "per_run_time_limit": 15,
+        "ensemble_size": 50
+    },
+    "value": 0.8865979381443299,
+    "time": 1764119343.0692954
+}

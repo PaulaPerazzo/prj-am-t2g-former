@@ -1,0 +1,23 @@
+[2025-11-25 13:23:45] [cmc] === Início random search (10 trials) ===
+[2025-11-25 13:23:45] [cmc] Trial 1/10 | time_left=20s, per_run=5s, ensemble_size=1, train_size=0.8, memory=2048MB
+[2025-11-25 13:23:45] [cmc] Trial 1 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 13:23:45] [cmc] Trial 2/10 | time_left=20s, per_run=10s, ensemble_size=1, train_size=0.7, memory=4096MB
+[2025-11-25 13:23:45] [cmc] Trial 2 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 13:23:45] [cmc] Trial 3/10 | time_left=20s, per_run=5s, ensemble_size=1, train_size=0.7, memory=4096MB
+[2025-11-25 13:23:45] [cmc] Trial 3 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 13:23:45] [cmc] Trial 4/10 | time_left=20s, per_run=10s, ensemble_size=1, train_size=0.7, memory=4096MB
+[2025-11-25 13:23:45] [cmc] Trial 4 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 13:23:45] [cmc] Trial 5/10 | time_left=40s, per_run=5s, ensemble_size=1, train_size=0.8, memory=4096MB
+[2025-11-25 13:24:20] [cmc] Trial 5 finalizado | g-mean=0.4825 | tempo=34.9s
+[2025-11-25 13:24:20] [cmc] ★ Novo best_score=0.4825 salvo em optuna_results/cmc_random_search.json
+[2025-11-25 13:24:20] [cmc] Trial 6/10 | time_left=40s, per_run=10s, ensemble_size=5, train_size=0.7, memory=4096MB
+[2025-11-25 13:24:56] [cmc] Trial 6 finalizado | g-mean=0.4751 | tempo=36.0s
+[2025-11-25 13:24:56] [cmc] Trial 7/10 | time_left=40s, per_run=10s, ensemble_size=1, train_size=0.8, memory=3072MB
+[2025-11-25 13:25:32] [cmc] Trial 7 finalizado | g-mean=0.4825 | tempo=35.4s
+[2025-11-25 13:25:32] [cmc] Trial 8/10 | time_left=20s, per_run=10s, ensemble_size=5, train_size=0.8, memory=2048MB
+[2025-11-25 13:25:32] [cmc] Trial 8 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 13:25:32] [cmc] Trial 9/10 | time_left=20s, per_run=10s, ensemble_size=1, train_size=0.7, memory=4096MB
+[2025-11-25 13:25:32] [cmc] Trial 9 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 13:25:32] [cmc] Trial 10/10 | time_left=20s, per_run=10s, ensemble_size=1, train_size=0.8, memory=2048MB
+[2025-11-25 13:25:32] [cmc] Trial 10 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 13:25:32] [cmc] === Fim random search | best_score=0.4825 ===

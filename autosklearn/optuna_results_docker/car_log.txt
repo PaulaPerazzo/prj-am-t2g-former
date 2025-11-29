@@ -1,0 +1,25 @@
+[2025-11-25 13:32:07] [car] === Início random search (10 trials) ===
+[2025-11-25 13:32:07] [car] Trial 1/10 | time_left=40s, per_run=10s, ensemble_size=5, train_size=0.7, memory=2048MB
+[2025-11-25 13:32:43] [car] Trial 1 finalizado | g-mean=0.8824 | tempo=35.5s
+[2025-11-25 13:32:43] [car] ★ Novo best_score=0.8824 salvo em optuna_results/car_random_search.json
+[2025-11-25 13:32:43] [car] Trial 2/10 | time_left=30s, per_run=5s, ensemble_size=5, train_size=0.7, memory=2048MB
+[2025-11-25 13:33:08] [car] Trial 2 finalizado | g-mean=0.8824 | tempo=25.2s
+[2025-11-25 13:33:08] [car] Trial 3/10 | time_left=40s, per_run=10s, ensemble_size=5, train_size=0.8, memory=3072MB
+[2025-11-25 13:33:42] [car] Trial 3 finalizado | g-mean=0.9557 | tempo=34.0s
+[2025-11-25 13:33:42] [car] ★ Novo best_score=0.9557 salvo em optuna_results/car_random_search.json
+[2025-11-25 13:33:42] [car] Trial 4/10 | time_left=40s, per_run=5s, ensemble_size=5, train_size=0.7, memory=3072MB
+[2025-11-25 13:34:16] [car] Trial 4 finalizado | g-mean=0.8837 | tempo=34.1s
+[2025-11-25 13:34:16] [car] Trial 5/10 | time_left=20s, per_run=10s, ensemble_size=1, train_size=0.7, memory=3072MB
+[2025-11-25 13:34:16] [car] Trial 5 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 13:34:16] [car] Trial 6/10 | time_left=30s, per_run=5s, ensemble_size=5, train_size=0.8, memory=4096MB
+[2025-11-25 13:34:41] [car] Trial 6 finalizado | g-mean=0.9665 | tempo=25.4s
+[2025-11-25 13:34:41] [car] ★ Novo best_score=0.9665 salvo em optuna_results/car_random_search.json
+[2025-11-25 13:34:41] [car] Trial 7/10 | time_left=20s, per_run=10s, ensemble_size=5, train_size=0.8, memory=3072MB
+[2025-11-25 13:34:41] [car] Trial 7 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 13:34:41] [car] Trial 8/10 | time_left=30s, per_run=10s, ensemble_size=1, train_size=0.7, memory=3072MB
+[2025-11-25 13:35:05] [car] Trial 8 finalizado | g-mean=0.8824 | tempo=23.9s
+[2025-11-25 13:35:05] [car] Trial 9/10 | time_left=40s, per_run=10s, ensemble_size=1, train_size=0.8, memory=3072MB
+[2025-11-25 13:35:40] [car] Trial 9 finalizado | g-mean=0.9637 | tempo=35.3s
+[2025-11-25 13:35:40] [car] Trial 10/10 | time_left=40s, per_run=5s, ensemble_size=5, train_size=0.8, memory=2048MB
+[2025-11-25 13:36:14] [car] Trial 10 finalizado | g-mean=0.9604 | tempo=34.0s
+[2025-11-25 13:36:14] [car] === Fim random search | best_score=0.9665 ===
