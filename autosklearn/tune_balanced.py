@@ -70,6 +70,7 @@ def prepare_features(df: pd.DataFrame):
             df2[c] = LabelEncoder().fit_transform(df2[c].astype(str))
 
         X_cat = df2[cat_cols].values
+    
     else:
         X_cat = None
 
@@ -174,7 +175,7 @@ def run_random_search_for_dataset(dataset_name: str, n_trials: int = 10):
             continue
 
     log_line(dataset_name, f"=== Fim random search | BEST_ACC={best_score:.4f} ===")
-    print(f"✔ Dataset {dataset_name} finalizado | BEST_ACC={best_score:.4f}")
+    print(f"Dataset {dataset_name} finalizado | BEST_ACC={best_score:.4f}")
 
 
 # 3. MAIN

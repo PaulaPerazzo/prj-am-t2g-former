@@ -31,6 +31,7 @@ def seed_everything(seed=42):
 
 def load_dataset(ds):
     df = pd.read_csv(f"train_datasets/{ds}.csv")
+    
     return df
 
 
@@ -45,25 +46,31 @@ def prepare_features(df):
     if cat_cols:
         for c in cat_cols:
             df2[c] = LabelEncoder().fit_transform(df2[c].astype(str))
+    
         X_cat = df2[cat_cols].values
+    
     else:
         X_cat = None
 
     X_num = df2[num_cols].astype(np.float32).values
+    
     return X_num, X_cat, y
 
 
 def gmean_score(y_true, y_pred, eps=1e-9):
     recalls = []
+    
     for c in np.unique(y_true):
         tp = ((y_true == c) & (y_pred == c)).sum()
         fn = ((y_true == c) & (y_pred != c)).sum()
         recalls.append(tp / (tp + fn + eps))
+    
     return np.prod(recalls) ** (1 / len(recalls))
 
 
 def evaluate_model(model, X_valid, y_valid):
     preds = model.predict(X_valid)
+    
     return gmean_score(y_valid, preds)
 
 
@@ -79,6 +86,7 @@ def run_halving(ds):
 
     if X_cat is not None:
         X = np.hstack([X_num, X_cat])
+    
     else:
         X = X_num
 
@@ -86,9 +94,7 @@ def run_halving(ds):
         X, y, test_size=0.2, random_state=42
     )
 
-    # -------------------------
     # Search Space
-    # -------------------------
     param_grid = {
         "time_left_for_this_task": [60, 120, 180, 240],
         "per_run_time_limit": [15, 30, 45],
@@ -107,16 +113,14 @@ def run_halving(ds):
         resampling_strategy_arguments={"train_size": 0.8},
     )
 
-    # -------------------------
     # Halving Search
-    # -------------------------
     search = HalvingGridSearchCV(
         estimator=base_model,
         param_grid=param_grid,
         factor=2,
-        resource="n_samples",  # mais eficiente
+        resource="n_samples",
         max_resources=X_train.shape[0],
-        scoring=None,  # usaremos G-mean manual
+        scoring=None,  # gmean manual
         cv=3,
         verbose=1
     )
@@ -126,17 +130,12 @@ def run_halving(ds):
     duration = time.time() - start
 
     best_cfg = search.best_params_
-    print("→ Best params:", best_cfg)
+    print("Best params:", best_cfg)
 
-    # ---------------------------------
     # Avaliação final no conjunto holdout
-    # ---------------------------------
     best_model = search.best_estimator_
     g = evaluate_model(best_model, X_valid, y_valid)
 
-    # -------------------------
-    # Salvar resultado
-    # -------------------------
     os.makedirs("halving_results", exist_ok=True)
 
     with open(f"halving_results/{ds}.json", "w") as f:
@@ -151,9 +150,9 @@ def run_halving(ds):
             indent=4
         )
 
-    print(f"✔ Finalizado {ds}")
-    print(f"  → G-Mean: {g}")
-    print(f"  → Tempo: {duration}s")
+    print(f"Finalizado {ds}")
+    print(f" G-Mean: {g}")
+    print(f" Tempo: {duration}s")
 
 
 if __name__ == "__main__":

@@ -61,11 +61,11 @@ def gmean_score(y_true, y_pred, eps=1e-9):
         ((y_true == c) & (y_pred == c)).sum() / ((y_true == c).sum() + eps)
         for c in classes
     ]
+
     return np.prod(recalls) ** (1 / len(recalls))
 
 
 def objective(trial, dataset_name):
-
     df = load_dataset(dataset_name)
     X_num, X_cat, y = prepare_features(df)
 
@@ -99,8 +99,8 @@ def objective(trial, dataset_name):
     # score = gmean_score(y_valid, preds)
     score = accuracy_score(y_valid, preds)
 
-    # 🔥 SALVAR RESULTADO DO TRIAL IMEDIATAMENTE 🔥
     trial_path = f"optuna_trials/{dataset_name}_trial_{trial.number}.json"
+
     with open(trial_path, "w") as f:
         json.dump(
             {
@@ -117,7 +117,7 @@ def objective(trial, dataset_name):
 
 
 def run_optuna(dataset_name, n_trials=20):
-    print(f"\n🔍 Dataset: {dataset_name}")
+    print(f"Dataset: {dataset_name}")
 
     study = optuna.create_study(direction="maximize")
 
@@ -134,9 +134,9 @@ def run_optuna(dataset_name, n_trials=20):
             indent=4
         )
 
-    print("✔ Finalizado:", dataset_name)
-    print(" → Best:", study.best_value)
-    print(" → Params:", study.best_params)
+    print("Finalizado:", dataset_name)
+    print(" Best:", study.best_value)
+    print(" Params:", study.best_params)
 
 
 if __name__ == "__main__":
