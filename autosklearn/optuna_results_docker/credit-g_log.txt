@@ -1,0 +1,25 @@
+[2025-11-25 13:20:49] [credit-g] === Início random search (10 trials) ===
+[2025-11-25 13:20:50] [credit-g] Trial 1/10 | time_left=40s, per_run=10s, ensemble_size=5, train_size=0.8, memory=3072MB
+[2025-11-25 13:21:24] [credit-g] Trial 1 finalizado | g-mean=0.5007 | tempo=34.2s
+[2025-11-25 13:21:24] [credit-g] ★ Novo best_score=0.5007 salvo em optuna_results/credit-g_random_search.json
+[2025-11-25 13:21:24] [credit-g] Trial 2/10 | time_left=30s, per_run=5s, ensemble_size=1, train_size=0.7, memory=3072MB
+[2025-11-25 13:21:48] [credit-g] Trial 2 finalizado | g-mean=0.5695 | tempo=24.0s
+[2025-11-25 13:21:48] [credit-g] ★ Novo best_score=0.5695 salvo em optuna_results/credit-g_random_search.json
+[2025-11-25 13:21:48] [credit-g] Trial 3/10 | time_left=40s, per_run=10s, ensemble_size=1, train_size=0.7, memory=2048MB
+[2025-11-25 13:22:23] [credit-g] Trial 3 finalizado | g-mean=0.6644 | tempo=34.9s
+[2025-11-25 13:22:23] [credit-g] ★ Novo best_score=0.6644 salvo em optuna_results/credit-g_random_search.json
+[2025-11-25 13:22:23] [credit-g] Trial 4/10 | time_left=20s, per_run=10s, ensemble_size=1, train_size=0.8, memory=2048MB
+[2025-11-25 13:22:23] [credit-g] Trial 4 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 13:22:23] [credit-g] Trial 5/10 | time_left=30s, per_run=10s, ensemble_size=1, train_size=0.7, memory=3072MB
+[2025-11-25 13:22:47] [credit-g] Trial 5 finalizado | g-mean=0.5695 | tempo=23.9s
+[2025-11-25 13:22:47] [credit-g] Trial 6/10 | time_left=40s, per_run=5s, ensemble_size=1, train_size=0.7, memory=2048MB
+[2025-11-25 13:23:21] [credit-g] Trial 6 finalizado | g-mean=0.6644 | tempo=34.7s
+[2025-11-25 13:23:21] [credit-g] Trial 7/10 | time_left=20s, per_run=5s, ensemble_size=5, train_size=0.8, memory=3072MB
+[2025-11-25 13:23:21] [credit-g] Trial 7 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 13:23:21] [credit-g] Trial 8/10 | time_left=20s, per_run=10s, ensemble_size=1, train_size=0.7, memory=3072MB
+[2025-11-25 13:23:21] [credit-g] Trial 8 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 13:23:21] [credit-g] Trial 9/10 | time_left=20s, per_run=10s, ensemble_size=5, train_size=0.8, memory=3072MB
+[2025-11-25 13:23:21] [credit-g] Trial 9 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 13:23:21] [credit-g] Trial 10/10 | time_left=30s, per_run=10s, ensemble_size=1, train_size=0.7, memory=3072MB
+[2025-11-25 13:23:45] [credit-g] Trial 10 finalizado | g-mean=0.5695 | tempo=24.2s
+[2025-11-25 13:23:45] [credit-g] === Fim random search | best_score=0.6644 ===

@@ -1,0 +1,25 @@
+[2025-11-25 16:22:37] [dresses-sales] === Início random search ACC (10 trials) ===
+[2025-11-25 16:22:37] [dresses-sales] Trial 1/10 | time_left=40s, per_run=5s, ensemble=5, train_size=0.7, memory=2048MB
+[2025-11-25 16:23:13] [dresses-sales] Trial 1 finalizado | ACC=0.5714 | tempo=35.7s
+[2025-11-25 16:23:13] [dresses-sales] ★ Novo best_score=0.5714 salvo!
+[2025-11-25 16:23:13] [dresses-sales] Trial 2/10 | time_left=20s, per_run=10s, ensemble=5, train_size=0.8, memory=4096MB
+[2025-11-25 16:23:13] [dresses-sales] Trial 2 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 16:23:13] [dresses-sales] Trial 3/10 | time_left=30s, per_run=5s, ensemble=5, train_size=0.8, memory=2048MB
+[2025-11-25 16:23:37] [dresses-sales] Trial 3 finalizado | ACC=0.6143 | tempo=24.3s
+[2025-11-25 16:23:37] [dresses-sales] ★ Novo best_score=0.6143 salvo!
+[2025-11-25 16:23:37] [dresses-sales] Trial 4/10 | time_left=40s, per_run=10s, ensemble=1, train_size=0.7, memory=4096MB
+[2025-11-25 16:24:13] [dresses-sales] Trial 4 finalizado | ACC=0.5571 | tempo=36.2s
+[2025-11-25 16:24:13] [dresses-sales] Trial 5/10 | time_left=40s, per_run=5s, ensemble=1, train_size=0.8, memory=3072MB
+[2025-11-25 16:24:47] [dresses-sales] Trial 5 finalizado | ACC=0.6286 | tempo=34.0s
+[2025-11-25 16:24:47] [dresses-sales] ★ Novo best_score=0.6286 salvo!
+[2025-11-25 16:24:47] [dresses-sales] Trial 6/10 | time_left=30s, per_run=5s, ensemble=5, train_size=0.7, memory=2048MB
+[2025-11-25 16:25:12] [dresses-sales] Trial 6 finalizado | ACC=0.5714 | tempo=24.9s
+[2025-11-25 16:25:12] [dresses-sales] Trial 7/10 | time_left=20s, per_run=10s, ensemble=5, train_size=0.8, memory=2048MB
+[2025-11-25 16:25:12] [dresses-sales] Trial 7 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 16:25:12] [dresses-sales] Trial 8/10 | time_left=20s, per_run=10s, ensemble=1, train_size=0.8, memory=3072MB
+[2025-11-25 16:25:12] [dresses-sales] Trial 8 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 16:25:12] [dresses-sales] Trial 9/10 | time_left=40s, per_run=10s, ensemble=1, train_size=0.8, memory=2048MB
+[2025-11-25 16:25:48] [dresses-sales] Trial 9 finalizado | ACC=0.6286 | tempo=35.5s
+[2025-11-25 16:25:48] [dresses-sales] Trial 10/10 | time_left=20s, per_run=10s, ensemble=5, train_size=0.8, memory=3072MB
+[2025-11-25 16:25:48] [dresses-sales] Trial 10 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 16:25:48] [dresses-sales] === Fim random search | BEST_ACC=0.6286 ===

@@ -1,0 +1,23 @@
+[2025-11-25 13:57:15] [climate-model-simulation-crashes] === Início random search (10 trials) ===
+[2025-11-25 13:57:15] [climate-model-simulation-crashes] Trial 1/10 | time_left=40s, per_run=5s, ensemble_size=1, train_size=0.7, memory=4096MB
+[2025-11-25 13:57:49] [climate-model-simulation-crashes] Trial 1 finalizado | g-mean=0.7071 | tempo=34.6s
+[2025-11-25 13:57:49] [climate-model-simulation-crashes] ★ Novo best_score=0.7071 salvo em optuna_results/climate-model-simulation-crashes_random_search.json
+[2025-11-25 13:57:49] [climate-model-simulation-crashes] Trial 2/10 | time_left=30s, per_run=5s, ensemble_size=1, train_size=0.7, memory=4096MB
+[2025-11-25 13:58:13] [climate-model-simulation-crashes] Trial 2 finalizado | g-mean=0.7020 | tempo=23.7s
+[2025-11-25 13:58:13] [climate-model-simulation-crashes] Trial 3/10 | time_left=30s, per_run=5s, ensemble_size=5, train_size=0.8, memory=3072MB
+[2025-11-25 13:58:37] [climate-model-simulation-crashes] Trial 3 finalizado | g-mean=0.7020 | tempo=24.0s
+[2025-11-25 13:58:37] [climate-model-simulation-crashes] Trial 4/10 | time_left=30s, per_run=10s, ensemble_size=5, train_size=0.7, memory=4096MB
+[2025-11-25 13:59:01] [climate-model-simulation-crashes] Trial 4 finalizado | g-mean=0.7071 | tempo=24.0s
+[2025-11-25 13:59:01] [climate-model-simulation-crashes] Trial 5/10 | time_left=40s, per_run=5s, ensemble_size=1, train_size=0.7, memory=3072MB
+[2025-11-25 13:59:35] [climate-model-simulation-crashes] Trial 5 finalizado | g-mean=0.7071 | tempo=33.8s
+[2025-11-25 13:59:35] [climate-model-simulation-crashes] Trial 6/10 | time_left=40s, per_run=5s, ensemble_size=1, train_size=0.7, memory=2048MB
+[2025-11-25 14:00:10] [climate-model-simulation-crashes] Trial 6 finalizado | g-mean=0.7071 | tempo=35.2s
+[2025-11-25 14:00:10] [climate-model-simulation-crashes] Trial 7/10 | time_left=40s, per_run=5s, ensemble_size=1, train_size=0.7, memory=3072MB
+[2025-11-25 14:00:44] [climate-model-simulation-crashes] Trial 7 finalizado | g-mean=0.7020 | tempo=33.6s
+[2025-11-25 14:00:44] [climate-model-simulation-crashes] Trial 8/10 | time_left=30s, per_run=10s, ensemble_size=5, train_size=0.7, memory=2048MB
+[2025-11-25 14:01:08] [climate-model-simulation-crashes] Trial 8 finalizado | g-mean=0.7071 | tempo=23.9s
+[2025-11-25 14:01:08] [climate-model-simulation-crashes] Trial 9/10 | time_left=30s, per_run=10s, ensemble_size=5, train_size=0.7, memory=4096MB
+[2025-11-25 14:01:32] [climate-model-simulation-crashes] Trial 9 finalizado | g-mean=0.7071 | tempo=24.2s
+[2025-11-25 14:01:32] [climate-model-simulation-crashes] Trial 10/10 | time_left=20s, per_run=10s, ensemble_size=1, train_size=0.8, memory=2048MB
+[2025-11-25 14:01:32] [climate-model-simulation-crashes] Trial 10 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 14:01:32] [climate-model-simulation-crashes] === Fim random search | best_score=0.7071 ===

@@ -1,0 +1,24 @@
+[2025-11-25 14:01:32] [qsar-biodeg] === Início random search (10 trials) ===
+[2025-11-25 14:01:32] [qsar-biodeg] Trial 1/10 | time_left=40s, per_run=5s, ensemble_size=1, train_size=0.8, memory=2048MB
+[2025-11-25 14:02:06] [qsar-biodeg] Trial 1 finalizado | g-mean=0.7581 | tempo=34.2s
+[2025-11-25 14:02:06] [qsar-biodeg] ★ Novo best_score=0.7581 salvo em optuna_results/qsar-biodeg_random_search.json
+[2025-11-25 14:02:06] [qsar-biodeg] Trial 2/10 | time_left=20s, per_run=5s, ensemble_size=1, train_size=0.8, memory=4096MB
+[2025-11-25 14:02:06] [qsar-biodeg] Trial 2 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 14:02:06] [qsar-biodeg] Trial 3/10 | time_left=40s, per_run=10s, ensemble_size=5, train_size=0.7, memory=3072MB
+[2025-11-25 14:02:41] [qsar-biodeg] Trial 3 finalizado | g-mean=0.8167 | tempo=34.7s
+[2025-11-25 14:02:41] [qsar-biodeg] ★ Novo best_score=0.8167 salvo em optuna_results/qsar-biodeg_random_search.json
+[2025-11-25 14:02:41] [qsar-biodeg] Trial 4/10 | time_left=40s, per_run=10s, ensemble_size=5, train_size=0.8, memory=4096MB
+[2025-11-25 14:03:15] [qsar-biodeg] Trial 4 finalizado | g-mean=0.7624 | tempo=34.6s
+[2025-11-25 14:03:15] [qsar-biodeg] Trial 5/10 | time_left=40s, per_run=10s, ensemble_size=5, train_size=0.7, memory=4096MB
+[2025-11-25 14:03:51] [qsar-biodeg] Trial 5 finalizado | g-mean=0.8167 | tempo=35.5s
+[2025-11-25 14:03:51] [qsar-biodeg] Trial 6/10 | time_left=20s, per_run=10s, ensemble_size=5, train_size=0.8, memory=2048MB
+[2025-11-25 14:03:51] [qsar-biodeg] Trial 6 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 14:03:51] [qsar-biodeg] Trial 7/10 | time_left=20s, per_run=5s, ensemble_size=1, train_size=0.8, memory=4096MB
+[2025-11-25 14:03:51] [qsar-biodeg] Trial 7 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 14:03:51] [qsar-biodeg] Trial 8/10 | time_left=20s, per_run=5s, ensemble_size=5, train_size=0.8, memory=3072MB
+[2025-11-25 14:03:51] [qsar-biodeg] Trial 8 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 14:03:51] [qsar-biodeg] Trial 9/10 | time_left=20s, per_run=10s, ensemble_size=5, train_size=0.7, memory=3072MB
+[2025-11-25 14:03:51] [qsar-biodeg] Trial 9 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 14:03:51] [qsar-biodeg] Trial 10/10 | time_left=30s, per_run=10s, ensemble_size=5, train_size=0.8, memory=4096MB
+[2025-11-25 14:04:14] [qsar-biodeg] Trial 10 finalizado | g-mean=0.8132 | tempo=23.8s
+[2025-11-25 14:04:14] [qsar-biodeg] === Fim random search | best_score=0.8167 ===

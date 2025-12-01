@@ -1,0 +1,23 @@
+[2025-11-25 13:12:21] [eucalyptus] === Início random search (10 trials) ===
+[2025-11-25 13:12:21] [eucalyptus] Trial 1/10 | time_left=40s, per_run=5s, ensemble_size=5, train_size=0.7, memory=2048MB
+[2025-11-25 13:12:55] [eucalyptus] Trial 1 finalizado | g-mean=0.5933 | tempo=34.1s
+[2025-11-25 13:12:55] [eucalyptus] ★ Novo best_score=0.5933 salvo em optuna_results/eucalyptus_random_search.json
+[2025-11-25 13:12:55] [eucalyptus] Trial 2/10 | time_left=20s, per_run=10s, ensemble_size=5, train_size=0.8, memory=4096MB
+[2025-11-25 13:12:55] [eucalyptus] Trial 2 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 13:12:55] [eucalyptus] Trial 3/10 | time_left=30s, per_run=5s, ensemble_size=5, train_size=0.8, memory=2048MB
+[2025-11-25 13:13:19] [eucalyptus] Trial 3 finalizado | g-mean=0.5905 | tempo=24.2s
+[2025-11-25 13:13:19] [eucalyptus] Trial 4/10 | time_left=40s, per_run=10s, ensemble_size=1, train_size=0.7, memory=4096MB
+[2025-11-25 13:13:52] [eucalyptus] Trial 4 finalizado | g-mean=0.5827 | tempo=33.4s
+[2025-11-25 13:13:52] [eucalyptus] Trial 5/10 | time_left=40s, per_run=5s, ensemble_size=1, train_size=0.8, memory=3072MB
+[2025-11-25 13:14:28] [eucalyptus] Trial 5 finalizado | g-mean=0.5479 | tempo=35.3s
+[2025-11-25 13:14:28] [eucalyptus] Trial 6/10 | time_left=30s, per_run=5s, ensemble_size=5, train_size=0.7, memory=2048MB
+[2025-11-25 13:14:53] [eucalyptus] Trial 6 finalizado | g-mean=0.5933 | tempo=25.2s
+[2025-11-25 13:14:53] [eucalyptus] Trial 7/10 | time_left=20s, per_run=10s, ensemble_size=5, train_size=0.8, memory=2048MB
+[2025-11-25 13:14:53] [eucalyptus] Trial 7 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 13:14:53] [eucalyptus] Trial 8/10 | time_left=20s, per_run=10s, ensemble_size=1, train_size=0.8, memory=3072MB
+[2025-11-25 13:14:53] [eucalyptus] Trial 8 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 13:14:53] [eucalyptus] Trial 9/10 | time_left=40s, per_run=10s, ensemble_size=1, train_size=0.8, memory=2048MB
+[2025-11-25 13:15:27] [eucalyptus] Trial 9 finalizado | g-mean=0.5479 | tempo=33.7s
+[2025-11-25 13:15:27] [eucalyptus] Trial 10/10 | time_left=20s, per_run=10s, ensemble_size=5, train_size=0.8, memory=3072MB
+[2025-11-25 13:15:27] [eucalyptus] Trial 10 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 13:15:27] [eucalyptus] === Fim random search | best_score=0.5933 ===

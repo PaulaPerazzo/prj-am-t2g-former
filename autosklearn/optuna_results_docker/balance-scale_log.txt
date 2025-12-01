@@ -1,0 +1,24 @@
+[2025-11-25 13:42:19] [balance-scale] === Início random search (10 trials) ===
+[2025-11-25 13:42:19] [balance-scale] Trial 1/10 | time_left=30s, per_run=10s, ensemble_size=5, train_size=0.7, memory=3072MB
+[2025-11-25 13:42:42] [balance-scale] Trial 1 finalizado | g-mean=0.0000 | tempo=23.8s
+[2025-11-25 13:42:42] [balance-scale] ★ Novo best_score=0.0000 salvo em optuna_results/balance-scale_random_search.json
+[2025-11-25 13:42:42] [balance-scale] Trial 2/10 | time_left=30s, per_run=10s, ensemble_size=1, train_size=0.8, memory=2048MB
+[2025-11-25 13:43:07] [balance-scale] Trial 2 finalizado | g-mean=0.9916 | tempo=24.2s
+[2025-11-25 13:43:07] [balance-scale] ★ Novo best_score=0.9916 salvo em optuna_results/balance-scale_random_search.json
+[2025-11-25 13:43:07] [balance-scale] Trial 3/10 | time_left=40s, per_run=5s, ensemble_size=5, train_size=0.7, memory=2048MB
+[2025-11-25 13:43:43] [balance-scale] Trial 3 finalizado | g-mean=0.7663 | tempo=36.2s
+[2025-11-25 13:43:43] [balance-scale] Trial 4/10 | time_left=40s, per_run=10s, ensemble_size=1, train_size=0.8, memory=2048MB
+[2025-11-25 13:44:17] [balance-scale] Trial 4 finalizado | g-mean=0.9916 | tempo=34.0s
+[2025-11-25 13:44:17] [balance-scale] Trial 5/10 | time_left=20s, per_run=10s, ensemble_size=5, train_size=0.8, memory=2048MB
+[2025-11-25 13:44:17] [balance-scale] Trial 5 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 13:44:17] [balance-scale] Trial 6/10 | time_left=30s, per_run=10s, ensemble_size=5, train_size=0.8, memory=3072MB
+[2025-11-25 13:44:41] [balance-scale] Trial 6 finalizado | g-mean=0.9916 | tempo=24.3s
+[2025-11-25 13:44:41] [balance-scale] Trial 7/10 | time_left=30s, per_run=10s, ensemble_size=1, train_size=0.8, memory=2048MB
+[2025-11-25 13:45:05] [balance-scale] Trial 7 finalizado | g-mean=0.9916 | tempo=24.4s
+[2025-11-25 13:45:05] [balance-scale] Trial 8/10 | time_left=40s, per_run=5s, ensemble_size=5, train_size=0.7, memory=4096MB
+[2025-11-25 13:45:42] [balance-scale] Trial 8 finalizado | g-mean=0.7663 | tempo=36.3s
+[2025-11-25 13:45:42] [balance-scale] Trial 9/10 | time_left=20s, per_run=5s, ensemble_size=1, train_size=0.7, memory=2048MB
+[2025-11-25 13:45:42] [balance-scale] Trial 9 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 13:45:42] [balance-scale] Trial 10/10 | time_left=20s, per_run=5s, ensemble_size=1, train_size=0.7, memory=3072MB
+[2025-11-25 13:45:42] [balance-scale] Trial 10 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 13:45:42] [balance-scale] === Fim random search | best_score=0.9916 ===

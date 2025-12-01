@@ -1,0 +1,115 @@
+
+===== Dataset: breast-w =====
+Best G-MEAN (CV Optuna): 0.9849050762739247
+Best params: {'d_token': 224, 'n_layers': 3, 'attention_dropout': 0.032217583180133236, 'ffn_dropout': 0.09684482479953736, 'd_ffn_factor': 1.8528410389172016, 'lr': 0.00024339798495707392}
+Early stopping at epoch 20, best G-Mean (val) = 0.9692
+Modelo salvo em: trained_models_t2gformer/breast-w_t2gformer.pt
+
+===== Dataset: eucalyptus =====
+Best G-MEAN (CV Optuna): 0.6491432877758678
+Best params: {'d_token': 256, 'n_layers': 4, 'attention_dropout': 0.3548976663319517, 'ffn_dropout': 0.4081549832274025, 'd_ffn_factor': 1.4951190565876957, 'lr': 0.00039503685923449706}
+Early stopping at epoch 29, best G-Mean (val) = 0.7334
+Modelo salvo em: trained_models_t2gformer/eucalyptus_t2gformer.pt
+
+===== Dataset: wdbc =====
+Best G-MEAN (CV Optuna): 0.9864429105476142
+Best params: {'d_token': 192, 'n_layers': 3, 'attention_dropout': 0.00359858979262781, 'ffn_dropout': 0.43050469407014175, 'd_ffn_factor': 2.5290695022731953, 'lr': 0.00198449160257217}
+Early stopping at epoch 16, best G-Mean (val) = 0.9806
+Modelo salvo em: trained_models_t2gformer/wdbc_t2gformer.pt
+
+===== Dataset: pc4 =====
+Best G-MEAN (CV Optuna): 0.8646578048823059
+Best params: {'d_token': 256, 'n_layers': 4, 'attention_dropout': 0.4806030620266171, 'ffn_dropout': 0.1760164210782111, 'd_ffn_factor': 1.8487737017413917, 'lr': 0.0003022338183500564}
+Early stopping at epoch 23, best G-Mean (val) = 0.9225
+Modelo salvo em: trained_models_t2gformer/pc4_t2gformer.pt
+
+===== Dataset: credit-g =====
+Best G-MEAN (CV Optuna): 0.7315161643503287
+Best params: {'d_token': 64, 'n_layers': 4, 'attention_dropout': 0.27057220686864375, 'ffn_dropout': 0.14026704125585668, 'd_ffn_factor': 1.393243609543349, 'lr': 0.0009128068468227149}
+Early stopping at epoch 20, best G-Mean (val) = 0.7113
+Modelo salvo em: trained_models_t2gformer/credit-g_t2gformer.pt
+
+===== Dataset: cmc =====
+Best G-MEAN (CV Optuna): 0.5682165729608092
+Best params: {'d_token': 224, 'n_layers': 4, 'attention_dropout': 0.1720531336132308, 'ffn_dropout': 0.22226197306442544, 'd_ffn_factor': 1.4865497899110793, 'lr': 0.00021777804157509798}
+Early stopping at epoch 21, best G-Mean (val) = 0.5878
+Modelo salvo em: trained_models_t2gformer/cmc_t2gformer.pt
+
+===== Dataset: blood-transfusion-service-center =====
+Best G-MEAN (CV Optuna): 0.7010141131718903
+Best params: {'d_token': 160, 'n_layers': 4, 'attention_dropout': 0.26270732827419796, 'ffn_dropout': 0.317742211702386, 'd_ffn_factor': 1.3128820968630162, 'lr': 0.0009018326574889861}
+Early stopping at epoch 16, best G-Mean (val) = 0.5945
+Modelo salvo em: trained_models_t2gformer/blood-transfusion-service-center_t2gformer.pt
+
+===== Dataset: pc3 =====
+Best G-MEAN (CV Optuna): 0.721854427119601
+Best params: {'d_token': 256, 'n_layers': 3, 'attention_dropout': 0.039152283161694265, 'ffn_dropout': 0.3861845334503806, 'd_ffn_factor': 2.144002864946539, 'lr': 0.0004112172061374134}
+Early stopping at epoch 46, best G-Mean (val) = 0.6374
+Modelo salvo em: trained_models_t2gformer/pc3_t2gformer.pt
+
+===== Dataset: car =====
+Best G-MEAN (CV Optuna): 0.9996694168099944
+Best params: {'d_token': 128, 'n_layers': 3, 'attention_dropout': 0.08898224200102028, 'ffn_dropout': 0.18351303959916196, 'd_ffn_factor': 2.854449710438434, 'lr': 0.0014051488813732196}
+Early stopping at epoch 38, best G-Mean (val) = 1.0000
+Modelo salvo em: trained_models_t2gformer/car_t2gformer.pt
+
+===== Dataset: kc2 =====
+Best G-MEAN (CV Optuna): 0.8468533568918442
+Best params: {'d_token': 128, 'n_layers': 2, 'attention_dropout': 0.21274315994651205, 'ffn_dropout': 0.11611343327238163, 'd_ffn_factor': 2.9197406329009983, 'lr': 0.002370466053506688}
+Early stopping at epoch 15, best G-Mean (val) = 0.8257
+Modelo salvo em: trained_models_t2gformer/kc2_t2gformer.pt
+
+===== Dataset: steel-plates-fault =====
+Best G-MEAN (CV Optuna): 0.8153278292439599
+Best params: {'d_token': 160, 'n_layers': 4, 'attention_dropout': 0.30075378244963963, 'ffn_dropout': 0.2365805943196943, 'd_ffn_factor': 2.5584514696268728, 'lr': 0.0014480300804784732}
+Early stopping at epoch 17, best G-Mean (val) = 0.8132
+Modelo salvo em: trained_models_t2gformer/steel-plates-fault_t2gformer.pt
+
+===== Dataset: balance-scale =====
+Best G-MEAN (CV Optuna): 0.9783670889685542
+Best params: {'d_token': 128, 'n_layers': 3, 'attention_dropout': 0.05884342303936069, 'ffn_dropout': 0.434135164718564, 'd_ffn_factor': 2.178688578431111, 'lr': 0.0019400896316240195}
+Early stopping at epoch 25, best G-Mean (val) = 0.9859
+Modelo salvo em: trained_models_t2gformer/balance-scale_t2gformer.pt
+
+===== Dataset: pc1 =====
+Best G-MEAN (CV Optuna): 0.4139158031822956
+Best params: {'d_token': 128, 'n_layers': 4, 'attention_dropout': 0.31196944833353835, 'ffn_dropout': 0.30470560950297154, 'd_ffn_factor': 2.453011012923379, 'lr': 0.0007048586498147694}
+Early stopping at epoch 11, best G-Mean (val) = 0.0000
+Modelo salvo em: trained_models_t2gformer/pc1_t2gformer.pt
+
+===== Dataset: tic-tac-toe =====
+Best G-MEAN (CV Optuna): 0.9999999999635983
+Best params: {'d_token': 160, 'n_layers': 4, 'attention_dropout': 0.04911594210224378, 'ffn_dropout': 0.27294636325072613, 'd_ffn_factor': 1.713413540448746, 'lr': 0.000562818493212976}
+Early stopping at epoch 33, best G-Mean (val) = 1.0000
+Modelo salvo em: trained_models_t2gformer/tic-tac-toe_t2gformer.pt
+
+===== Dataset: analcatdata_authorship =====
+Best G-MEAN (CV Optuna): 0.9999999998700636
+Best params: {'d_token': 64, 'n_layers': 2, 'attention_dropout': 0.36055450736106526, 'ffn_dropout': 0.23929275443460152, 'd_ffn_factor': 1.9354135057125808, 'lr': 0.00274153496097481}
+Early stopping at epoch 19, best G-Mean (val) = 1.0000
+Modelo salvo em: trained_models_t2gformer/analcatdata_authorship_t2gformer.pt
+
+===== Dataset: climate-model-simulation-crashes =====
+Best G-MEAN (CV Optuna): 0.9522345149695678
+Best params: {'d_token': 192, 'n_layers': 2, 'attention_dropout': 0.04664481534893551, 'ffn_dropout': 0.44551333548247624, 'd_ffn_factor': 2.6083054450394307, 'lr': 0.0013667330419353586}
+Early stopping at epoch 21, best G-Mean (val) = 0.8532
+Modelo salvo em: trained_models_t2gformer/climate-model-simulation-crashes_t2gformer.pt
+
+===== Dataset: qsar-biodeg =====
+Best G-MEAN (CV Optuna): 0.8815981486717261
+Best params: {'d_token': 160, 'n_layers': 3, 'attention_dropout': 0.0254385390619431, 'ffn_dropout': 0.4722863268977044, 'd_ffn_factor': 2.9712543639909423, 'lr': 0.001911432923907871}
+Early stopping at epoch 18, best G-Mean (val) = 0.8467
+Modelo salvo em: trained_models_t2gformer/qsar-biodeg_t2gformer.pt
+
+===== Dataset: diabetes =====
+Best G-MEAN (CV Optuna): 0.7935023641462424
+Best params: {'d_token': 64, 'n_layers': 2, 'attention_dropout': 0.024803058405415867, 'ffn_dropout': 0.4479382740917351, 'd_ffn_factor': 1.8712641212248329, 'lr': 0.002340318626230484}
+Early stopping at epoch 15, best G-Mean (val) = 0.7947
+Modelo salvo em: trained_models_t2gformer/diabetes_t2gformer.pt
+
+===== Dataset: ilpd =====
+Best G-MEAN (CV Optuna): 0.6941505723085951
+Best params: {'d_token': 256, 'n_layers': 4, 'attention_dropout': 0.34081577923823597, 'ffn_dropout': 0.353217504148424, 'd_ffn_factor': 2.3769330072393964, 'lr': 0.00017727152010238025}
+Early stopping at epoch 12, best G-Mean (val) = 0.6622
+Modelo salvo em: trained_models_t2gformer/ilpd_t2gformer.pt
+Resultados salvos/atualizados em: t2gformer_best_configs_results.csv

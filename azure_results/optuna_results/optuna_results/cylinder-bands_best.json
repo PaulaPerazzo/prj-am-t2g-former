@@ -1,0 +1,8 @@
+{
+    "best_value": 0.7894736842105263,
+    "best_params": {
+        "time_left_for_this_task": 240,
+        "per_run_time_limit": 15,
+        "ensemble_size": 30
+    }
+}

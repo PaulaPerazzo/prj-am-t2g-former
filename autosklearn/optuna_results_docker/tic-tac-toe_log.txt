@@ -1,0 +1,24 @@
+[2025-11-25 13:50:55] [tic-tac-toe] === Início random search (10 trials) ===
+[2025-11-25 13:50:55] [tic-tac-toe] Trial 1/10 | time_left=40s, per_run=10s, ensemble_size=5, train_size=0.7, memory=2048MB
+[2025-11-25 13:51:30] [tic-tac-toe] Trial 1 finalizado | g-mean=0.9343 | tempo=35.7s
+[2025-11-25 13:51:30] [tic-tac-toe] ★ Novo best_score=0.9343 salvo em optuna_results/tic-tac-toe_random_search.json
+[2025-11-25 13:51:30] [tic-tac-toe] Trial 2/10 | time_left=30s, per_run=10s, ensemble_size=1, train_size=0.8, memory=4096MB
+[2025-11-25 13:51:55] [tic-tac-toe] Trial 2 finalizado | g-mean=0.9324 | tempo=25.1s
+[2025-11-25 13:51:55] [tic-tac-toe] Trial 3/10 | time_left=40s, per_run=10s, ensemble_size=5, train_size=0.7, memory=3072MB
+[2025-11-25 13:52:31] [tic-tac-toe] Trial 3 finalizado | g-mean=0.9343 | tempo=35.4s
+[2025-11-25 13:52:31] [tic-tac-toe] Trial 4/10 | time_left=30s, per_run=5s, ensemble_size=5, train_size=0.7, memory=3072MB
+[2025-11-25 13:52:57] [tic-tac-toe] Trial 4 finalizado | g-mean=0.9177 | tempo=25.8s
+[2025-11-25 13:52:57] [tic-tac-toe] Trial 5/10 | time_left=30s, per_run=10s, ensemble_size=5, train_size=0.8, memory=4096MB
+[2025-11-25 13:53:20] [tic-tac-toe] Trial 5 finalizado | g-mean=0.9324 | tempo=23.9s
+[2025-11-25 13:53:20] [tic-tac-toe] Trial 6/10 | time_left=20s, per_run=5s, ensemble_size=1, train_size=0.7, memory=4096MB
+[2025-11-25 13:53:20] [tic-tac-toe] Trial 6 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 13:53:20] [tic-tac-toe] Trial 7/10 | time_left=30s, per_run=10s, ensemble_size=1, train_size=0.8, memory=4096MB
+[2025-11-25 13:53:46] [tic-tac-toe] Trial 7 finalizado | g-mean=0.9324 | tempo=25.6s
+[2025-11-25 13:53:46] [tic-tac-toe] Trial 8/10 | time_left=40s, per_run=10s, ensemble_size=5, train_size=0.7, memory=2048MB
+[2025-11-25 13:54:21] [tic-tac-toe] Trial 8 finalizado | g-mean=0.9343 | tempo=34.8s
+[2025-11-25 13:54:21] [tic-tac-toe] Trial 9/10 | time_left=30s, per_run=5s, ensemble_size=5, train_size=0.7, memory=3072MB
+[2025-11-25 13:54:46] [tic-tac-toe] Trial 9 finalizado | g-mean=0.9177 | tempo=24.9s
+[2025-11-25 13:54:46] [tic-tac-toe] Trial 10/10 | time_left=40s, per_run=10s, ensemble_size=5, train_size=0.8, memory=3072MB
+[2025-11-25 13:55:22] [tic-tac-toe] Trial 10 finalizado | g-mean=0.9383 | tempo=36.1s
+[2025-11-25 13:55:22] [tic-tac-toe] ★ Novo best_score=0.9383 salvo em optuna_results/tic-tac-toe_random_search.json
+[2025-11-25 13:55:22] [tic-tac-toe] === Fim random search | best_score=0.9383 ===

@@ -1,0 +1,25 @@
+[2025-11-25 16:39:06] [cylinder-bands] === Início random search ACC (10 trials) ===
+[2025-11-25 16:39:06] [cylinder-bands] Trial 1/10 | time_left=40s, per_run=5s, ensemble=5, train_size=0.7, memory=2048MB
+[2025-11-25 16:39:42] [cylinder-bands] Trial 1 finalizado | ACC=0.7237 | tempo=36.7s
+[2025-11-25 16:39:42] [cylinder-bands] ★ Novo best_score=0.7237 salvo!
+[2025-11-25 16:39:42] [cylinder-bands] Trial 2/10 | time_left=30s, per_run=10s, ensemble=1, train_size=0.8, memory=2048MB
+[2025-11-25 16:40:08] [cylinder-bands] Trial 2 finalizado | ACC=0.7632 | tempo=25.3s
+[2025-11-25 16:40:08] [cylinder-bands] ★ Novo best_score=0.7632 salvo!
+[2025-11-25 16:40:08] [cylinder-bands] Trial 3/10 | time_left=40s, per_run=5s, ensemble=1, train_size=0.8, memory=4096MB
+[2025-11-25 16:40:44] [cylinder-bands] Trial 3 finalizado | ACC=0.7237 | tempo=36.2s
+[2025-11-25 16:40:44] [cylinder-bands] Trial 4/10 | time_left=30s, per_run=5s, ensemble=1, train_size=0.7, memory=2048MB
+[2025-11-25 16:41:09] [cylinder-bands] Trial 4 finalizado | ACC=0.7368 | tempo=25.3s
+[2025-11-25 16:41:09] [cylinder-bands] Trial 5/10 | time_left=30s, per_run=5s, ensemble=1, train_size=0.8, memory=3072MB
+[2025-11-25 16:41:34] [cylinder-bands] Trial 5 finalizado | ACC=0.7632 | tempo=25.1s
+[2025-11-25 16:41:34] [cylinder-bands] Trial 6/10 | time_left=40s, per_run=5s, ensemble=5, train_size=0.7, memory=4096MB
+[2025-11-25 16:42:10] [cylinder-bands] Trial 6 finalizado | ACC=0.7237 | tempo=35.4s
+[2025-11-25 16:42:10] [cylinder-bands] Trial 7/10 | time_left=20s, per_run=10s, ensemble=1, train_size=0.8, memory=2048MB
+[2025-11-25 16:42:10] [cylinder-bands] Trial 7 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 16:42:10] [cylinder-bands] Trial 8/10 | time_left=20s, per_run=10s, ensemble=5, train_size=0.8, memory=2048MB
+[2025-11-25 16:42:10] [cylinder-bands] Trial 8 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 16:42:10] [cylinder-bands] Trial 9/10 | time_left=20s, per_run=5s, ensemble=1, train_size=0.8, memory=3072MB
+[2025-11-25 16:42:10] [cylinder-bands] Trial 9 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 16:42:10] [cylinder-bands] Trial 10/10 | time_left=30s, per_run=5s, ensemble=5, train_size=0.8, memory=4096MB
+[2025-11-25 16:42:34] [cylinder-bands] Trial 10 finalizado | ACC=0.7895 | tempo=24.1s
+[2025-11-25 16:42:34] [cylinder-bands] ★ Novo best_score=0.7895 salvo!
+[2025-11-25 16:42:34] [cylinder-bands] === Fim random search | BEST_ACC=0.7895 ===

@@ -1,0 +1,12 @@
+{
+    "best_value": 0.6285714285714286,
+    "best_params": {
+        "time_left_for_this_task": 40,
+        "per_run_time_limit": 5,
+        "ensemble_size": 1,
+        "train_size": 0.8,
+        "memory_limit": 3072
+    },
+    "updated_at": "2025-11-25 16:24:47",
+    "n_trials_done": 5
+}

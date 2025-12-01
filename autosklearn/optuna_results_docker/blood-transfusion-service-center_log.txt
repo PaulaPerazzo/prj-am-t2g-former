@@ -1,0 +1,25 @@
+[2025-11-25 13:25:32] [blood-transfusion-service-center] === Início random search (10 trials) ===
+[2025-11-25 13:25:32] [blood-transfusion-service-center] Trial 1/10 | time_left=20s, per_run=10s, ensemble_size=5, train_size=0.7, memory=3072MB
+[2025-11-25 13:25:32] [blood-transfusion-service-center] Trial 1 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 13:25:32] [blood-transfusion-service-center] Trial 2/10 | time_left=40s, per_run=10s, ensemble_size=1, train_size=0.8, memory=4096MB
+[2025-11-25 13:26:07] [blood-transfusion-service-center] Trial 2 finalizado | g-mean=0.2029 | tempo=34.9s
+[2025-11-25 13:26:07] [blood-transfusion-service-center] ★ Novo best_score=0.2029 salvo em optuna_results/blood-transfusion-service-center_random_search.json
+[2025-11-25 13:26:07] [blood-transfusion-service-center] Trial 3/10 | time_left=20s, per_run=5s, ensemble_size=5, train_size=0.7, memory=2048MB
+[2025-11-25 13:26:07] [blood-transfusion-service-center] Trial 3 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 13:26:07] [blood-transfusion-service-center] Trial 4/10 | time_left=40s, per_run=5s, ensemble_size=5, train_size=0.8, memory=4096MB
+[2025-11-25 13:26:42] [blood-transfusion-service-center] Trial 4 finalizado | g-mean=0.2869 | tempo=35.7s
+[2025-11-25 13:26:42] [blood-transfusion-service-center] ★ Novo best_score=0.2869 salvo em optuna_results/blood-transfusion-service-center_random_search.json
+[2025-11-25 13:26:42] [blood-transfusion-service-center] Trial 5/10 | time_left=20s, per_run=10s, ensemble_size=1, train_size=0.8, memory=4096MB
+[2025-11-25 13:26:42] [blood-transfusion-service-center] Trial 5 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 13:26:42] [blood-transfusion-service-center] Trial 6/10 | time_left=30s, per_run=10s, ensemble_size=1, train_size=0.7, memory=4096MB
+[2025-11-25 13:27:08] [blood-transfusion-service-center] Trial 6 finalizado | g-mean=0.3492 | tempo=25.4s
+[2025-11-25 13:27:08] [blood-transfusion-service-center] ★ Novo best_score=0.3492 salvo em optuna_results/blood-transfusion-service-center_random_search.json
+[2025-11-25 13:27:08] [blood-transfusion-service-center] Trial 7/10 | time_left=30s, per_run=10s, ensemble_size=1, train_size=0.7, memory=3072MB
+[2025-11-25 13:27:32] [blood-transfusion-service-center] Trial 7 finalizado | g-mean=0.3492 | tempo=24.1s
+[2025-11-25 13:27:32] [blood-transfusion-service-center] Trial 8/10 | time_left=20s, per_run=10s, ensemble_size=1, train_size=0.8, memory=4096MB
+[2025-11-25 13:27:32] [blood-transfusion-service-center] Trial 8 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 13:27:32] [blood-transfusion-service-center] Trial 9/10 | time_left=40s, per_run=10s, ensemble_size=1, train_size=0.7, memory=2048MB
+[2025-11-25 13:28:07] [blood-transfusion-service-center] Trial 9 finalizado | g-mean=0.3492 | tempo=35.6s
+[2025-11-25 13:28:07] [blood-transfusion-service-center] Trial 10/10 | time_left=40s, per_run=5s, ensemble_size=1, train_size=0.8, memory=4096MB
+[2025-11-25 13:28:42] [blood-transfusion-service-center] Trial 10 finalizado | g-mean=0.2029 | tempo=34.8s
+[2025-11-25 13:28:42] [blood-transfusion-service-center] === Fim random search | best_score=0.3492 ===

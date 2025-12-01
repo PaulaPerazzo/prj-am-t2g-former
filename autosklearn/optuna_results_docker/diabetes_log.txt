@@ -1,0 +1,23 @@
+[2025-11-25 14:04:15] [diabetes] === Início random search (10 trials) ===
+[2025-11-25 14:04:15] [diabetes] Trial 1/10 | time_left=20s, per_run=5s, ensemble_size=5, train_size=0.8, memory=4096MB
+[2025-11-25 14:04:15] [diabetes] Trial 1 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 14:04:15] [diabetes] Trial 2/10 | time_left=30s, per_run=10s, ensemble_size=5, train_size=0.7, memory=3072MB
+[2025-11-25 14:04:39] [diabetes] Trial 2 finalizado | g-mean=0.7634 | tempo=24.9s
+[2025-11-25 14:04:39] [diabetes] ★ Novo best_score=0.7634 salvo em optuna_results/diabetes_random_search.json
+[2025-11-25 14:04:39] [diabetes] Trial 3/10 | time_left=20s, per_run=10s, ensemble_size=5, train_size=0.8, memory=2048MB
+[2025-11-25 14:04:39] [diabetes] Trial 3 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 14:04:39] [diabetes] Trial 4/10 | time_left=30s, per_run=5s, ensemble_size=5, train_size=0.8, memory=2048MB
+[2025-11-25 14:05:04] [diabetes] Trial 4 finalizado | g-mean=0.7634 | tempo=25.1s
+[2025-11-25 14:05:04] [diabetes] Trial 5/10 | time_left=20s, per_run=10s, ensemble_size=5, train_size=0.8, memory=2048MB
+[2025-11-25 14:05:04] [diabetes] Trial 5 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 14:05:04] [diabetes] Trial 6/10 | time_left=20s, per_run=10s, ensemble_size=1, train_size=0.8, memory=3072MB
+[2025-11-25 14:05:04] [diabetes] Trial 6 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 14:05:04] [diabetes] Trial 7/10 | time_left=40s, per_run=10s, ensemble_size=1, train_size=0.7, memory=4096MB
+[2025-11-25 14:05:39] [diabetes] Trial 7 finalizado | g-mean=0.6319 | tempo=34.3s
+[2025-11-25 14:05:39] [diabetes] Trial 8/10 | time_left=40s, per_run=5s, ensemble_size=1, train_size=0.8, memory=4096MB
+[2025-11-25 14:06:13] [diabetes] Trial 8 finalizado | g-mean=0.7572 | tempo=34.5s
+[2025-11-25 14:06:13] [diabetes] Trial 9/10 | time_left=20s, per_run=10s, ensemble_size=1, train_size=0.7, memory=2048MB
+[2025-11-25 14:06:13] [diabetes] Trial 9 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 14:06:13] [diabetes] Trial 10/10 | time_left=30s, per_run=5s, ensemble_size=1, train_size=0.8, memory=4096MB
+[2025-11-25 14:06:39] [diabetes] Trial 10 finalizado | g-mean=0.7572 | tempo=25.3s
+[2025-11-25 14:06:39] [diabetes] === Fim random search | best_score=0.7634 ===

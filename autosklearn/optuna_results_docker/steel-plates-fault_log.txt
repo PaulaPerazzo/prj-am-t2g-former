@@ -1,0 +1,24 @@
+[2025-11-25 13:38:48] [steel-plates-fault] === Início random search (10 trials) ===
+[2025-11-25 13:38:48] [steel-plates-fault] Trial 1/10 | time_left=40s, per_run=10s, ensemble_size=5, train_size=0.7, memory=4096MB
+[2025-11-25 13:39:22] [steel-plates-fault] Trial 1 finalizado | g-mean=0.8236 | tempo=34.0s
+[2025-11-25 13:39:22] [steel-plates-fault] ★ Novo best_score=0.8236 salvo em optuna_results/steel-plates-fault_random_search.json
+[2025-11-25 13:39:22] [steel-plates-fault] Trial 2/10 | time_left=30s, per_run=10s, ensemble_size=5, train_size=0.7, memory=4096MB
+[2025-11-25 13:39:48] [steel-plates-fault] Trial 2 finalizado | g-mean=0.8163 | tempo=25.5s
+[2025-11-25 13:39:48] [steel-plates-fault] Trial 3/10 | time_left=30s, per_run=10s, ensemble_size=1, train_size=0.8, memory=3072MB
+[2025-11-25 13:40:13] [steel-plates-fault] Trial 3 finalizado | g-mean=0.8171 | tempo=24.9s
+[2025-11-25 13:40:13] [steel-plates-fault] Trial 4/10 | time_left=20s, per_run=10s, ensemble_size=1, train_size=0.8, memory=3072MB
+[2025-11-25 13:40:13] [steel-plates-fault] Trial 4 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 13:40:13] [steel-plates-fault] Trial 5/10 | time_left=30s, per_run=5s, ensemble_size=1, train_size=0.7, memory=2048MB
+[2025-11-25 13:40:38] [steel-plates-fault] Trial 5 finalizado | g-mean=0.8271 | tempo=25.3s
+[2025-11-25 13:40:38] [steel-plates-fault] ★ Novo best_score=0.8271 salvo em optuna_results/steel-plates-fault_random_search.json
+[2025-11-25 13:40:38] [steel-plates-fault] Trial 6/10 | time_left=30s, per_run=5s, ensemble_size=1, train_size=0.7, memory=3072MB
+[2025-11-25 13:41:03] [steel-plates-fault] Trial 6 finalizado | g-mean=0.8271 | tempo=24.9s
+[2025-11-25 13:41:03] [steel-plates-fault] Trial 7/10 | time_left=30s, per_run=10s, ensemble_size=5, train_size=0.8, memory=2048MB
+[2025-11-25 13:41:28] [steel-plates-fault] Trial 7 finalizado | g-mean=0.8171 | tempo=25.1s
+[2025-11-25 13:41:28] [steel-plates-fault] Trial 8/10 | time_left=20s, per_run=10s, ensemble_size=5, train_size=0.7, memory=4096MB
+[2025-11-25 13:41:28] [steel-plates-fault] Trial 8 FALHOU após 0.0s | erro: ValueError('Time left for this task must be at least 30 seconds. ')
+[2025-11-25 13:41:28] [steel-plates-fault] Trial 9/10 | time_left=30s, per_run=10s, ensemble_size=1, train_size=0.8, memory=3072MB
+[2025-11-25 13:41:53] [steel-plates-fault] Trial 9 finalizado | g-mean=0.8171 | tempo=25.4s
+[2025-11-25 13:41:53] [steel-plates-fault] Trial 10/10 | time_left=30s, per_run=10s, ensemble_size=1, train_size=0.8, memory=2048MB
+[2025-11-25 13:42:19] [steel-plates-fault] Trial 10 finalizado | g-mean=0.8171 | tempo=25.1s
+[2025-11-25 13:42:19] [steel-plates-fault] === Fim random search | best_score=0.8271 ===
