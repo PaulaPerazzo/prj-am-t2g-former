@@ -1,0 +1,15 @@
+{
+  "dataset": "wdbc",
+  "best_params": {
+    "iterations": 197,
+    "learning_rate": 0.022194461001238907,
+    "depth": 8,
+    "l2_leaf_reg": 0.025506553470523986,
+    "random_strength": 5.137597547919509,
+    "bagging_temperature": 0.3107158525298094,
+    "border_count": 243
+  },
+  "best_score": 0.9913879536101758,
+  "tune_time": 74.93346309661865,
+  "n_trials": 50
+}

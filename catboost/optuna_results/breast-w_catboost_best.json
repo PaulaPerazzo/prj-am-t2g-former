@@ -1,0 +1,15 @@
+{
+  "dataset": "breast-w",
+  "best_params": {
+    "iterations": 473,
+    "learning_rate": 0.023596041097921166,
+    "depth": 3,
+    "l2_leaf_reg": 0.38472443810911483,
+    "random_strength": 1.8308510115244405,
+    "bagging_temperature": 0.29850342982695705,
+    "border_count": 62
+  },
+  "best_score": 0.9941569523607405,
+  "tune_time": 15.482778072357178,
+  "n_trials": 50
+}

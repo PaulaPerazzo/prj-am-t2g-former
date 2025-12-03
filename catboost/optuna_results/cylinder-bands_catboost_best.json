@@ -1,0 +1,15 @@
+{
+  "dataset": "cylinder-bands",
+  "best_params": {
+    "iterations": 433,
+    "learning_rate": 0.023233935695385823,
+    "depth": 5,
+    "l2_leaf_reg": 0.01573559367415984,
+    "random_strength": 5.1654756974786284,
+    "bagging_temperature": 0.3099191723207154,
+    "border_count": 34
+  },
+  "best_score": 0.8397173803208287,
+  "tune_time": 40.82105016708374,
+  "n_trials": 50
+}

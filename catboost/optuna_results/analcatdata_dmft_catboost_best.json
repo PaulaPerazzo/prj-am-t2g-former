@@ -1,0 +1,15 @@
+{
+  "dataset": "analcatdata_dmft",
+  "best_params": {
+    "iterations": 226,
+    "learning_rate": 0.02581683081395819,
+    "depth": 3,
+    "l2_leaf_reg": 0.03456218301910605,
+    "random_strength": 6.2818179408717825,
+    "bagging_temperature": 0.06512629831562661,
+    "border_count": 112
+  },
+  "best_score": 0.5699984284098255,
+  "tune_time": 9.227259874343872,
+  "n_trials": 50
+}

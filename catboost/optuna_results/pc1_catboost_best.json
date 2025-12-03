@@ -1,0 +1,15 @@
+{
+  "dataset": "pc1",
+  "best_params": {
+    "iterations": 174,
+    "learning_rate": 0.07934237918397923,
+    "depth": 10,
+    "l2_leaf_reg": 4.860114156580749,
+    "random_strength": 0.7329821378866582,
+    "bagging_temperature": 0.6826182661984666,
+    "border_count": 178
+  },
+  "best_score": 0.8803410974097996,
+  "tune_time": 76.31684398651123,
+  "n_trials": 50
+}

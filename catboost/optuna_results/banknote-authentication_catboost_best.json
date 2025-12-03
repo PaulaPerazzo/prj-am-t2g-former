@@ -1,0 +1,15 @@
+{
+  "dataset": "banknote-authentication",
+  "best_params": {
+    "iterations": 440,
+    "learning_rate": 0.07725378389307355,
+    "depth": 8,
+    "l2_leaf_reg": 0.011527987128232402,
+    "random_strength": 7.579479953348009,
+    "bagging_temperature": 0.8324426408004217,
+    "border_count": 79
+  },
+  "best_score": 1.0,
+  "tune_time": 40.088494300842285,
+  "n_trials": 50
+}

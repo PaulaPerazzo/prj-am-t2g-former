@@ -1,0 +1,15 @@
+{
+  "dataset": "blood-transfusion-service-center",
+  "best_params": {
+    "iterations": 186,
+    "learning_rate": 0.0241090156225405,
+    "depth": 3,
+    "l2_leaf_reg": 0.7906565859118585,
+    "random_strength": 4.9621912184240005,
+    "bagging_temperature": 0.701770768490543,
+    "border_count": 97
+  },
+  "best_score": 0.7573736385380221,
+  "tune_time": 13.307585954666138,
+  "n_trials": 50
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "steel-plates-fault",
+  "best_params": {
+    "iterations": 482,
+    "learning_rate": 0.11389744687452437,
+    "depth": 6,
+    "l2_leaf_reg": 2.0372703602990074,
+    "random_strength": 1.7713868448871888,
+    "bagging_temperature": 0.1848987975553109,
+    "border_count": 58
+  },
+  "best_score": 0.9682844523548345,
+  "tune_time": 289.9182348251343,
+  "n_trials": 50
+}

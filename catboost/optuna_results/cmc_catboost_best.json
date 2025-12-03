@@ -1,0 +1,15 @@
+{
+  "dataset": "cmc",
+  "best_params": {
+    "iterations": 464,
+    "learning_rate": 0.015144096298459114,
+    "depth": 4,
+    "l2_leaf_reg": 9.864098940130239,
+    "random_strength": 0.01883520641442139,
+    "bagging_temperature": 0.2282974055610772,
+    "border_count": 165
+  },
+  "best_score": 0.7273963724299038,
+  "tune_time": 22.452038764953613,
+  "n_trials": 50
+}

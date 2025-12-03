@@ -1,0 +1,15 @@
+{
+  "dataset": "mfeat-morphological",
+  "best_params": {
+    "iterations": 470,
+    "learning_rate": 0.09158987678281144,
+    "depth": 3,
+    "l2_leaf_reg": 1.4944578433162166,
+    "random_strength": 0.6448181736799103,
+    "bagging_temperature": 0.8612108645740625,
+    "border_count": 63
+  },
+  "best_score": 0.9665006937744429,
+  "tune_time": 99.18699216842651,
+  "n_trials": 50
+}

@@ -1,0 +1,2 @@
+[2025-12-01 22:57:54] [MiceProtein] === Início tuning CatBoost (50 trials) ===
+[2025-12-01 22:57:54] [MiceProtein] ERRO: FileNotFoundError(2, 'No such file or directory')

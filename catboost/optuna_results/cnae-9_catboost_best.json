@@ -1,0 +1,15 @@
+{
+  "dataset": "cnae-9",
+  "best_params": {
+    "iterations": 452,
+    "learning_rate": 0.040359456141514524,
+    "depth": 10,
+    "l2_leaf_reg": 0.06035601781783563,
+    "random_strength": 3.2092601977965796,
+    "bagging_temperature": 0.838845022048059,
+    "border_count": 201
+  },
+  "best_score": 0.995035983650939,
+  "tune_time": 546.3074369430542,
+  "n_trials": 50
+}

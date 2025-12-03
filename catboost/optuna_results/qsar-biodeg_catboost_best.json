@@ -1,0 +1,15 @@
+{
+  "dataset": "qsar-biodeg",
+  "best_params": {
+    "iterations": 383,
+    "learning_rate": 0.02017474009955968,
+    "depth": 6,
+    "l2_leaf_reg": 0.010094917202824297,
+    "random_strength": 5.933127554976763,
+    "bagging_temperature": 0.7551326567568609,
+    "border_count": 66
+  },
+  "best_score": 0.9155073220965274,
+  "tune_time": 41.78341197967529,
+  "n_trials": 50
+}

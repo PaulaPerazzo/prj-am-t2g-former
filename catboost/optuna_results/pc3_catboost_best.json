@@ -1,0 +1,15 @@
+{
+  "dataset": "pc3",
+  "best_params": {
+    "iterations": 358,
+    "learning_rate": 0.01018158968177659,
+    "depth": 5,
+    "l2_leaf_reg": 0.012748802652224488,
+    "random_strength": 0.03031020779895982,
+    "bagging_temperature": 0.8841734109557197,
+    "border_count": 239
+  },
+  "best_score": 0.8615496797602462,
+  "tune_time": 67.74024415016174,
+  "n_trials": 50
+}

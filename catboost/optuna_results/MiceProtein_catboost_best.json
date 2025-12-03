@@ -1,0 +1,15 @@
+{
+  "dataset": "MiceProtein",
+  "best_params": {
+    "iterations": 463,
+    "learning_rate": 0.17431776476826738,
+    "depth": 6,
+    "l2_leaf_reg": 0.1543762310283612,
+    "random_strength": 0.017333962988524784,
+    "bagging_temperature": 0.0002621123047130136,
+    "border_count": 130
+  },
+  "best_score": 0.9998192486424393,
+  "tune_time": 914.8021428585052,
+  "n_trials": 50
+}

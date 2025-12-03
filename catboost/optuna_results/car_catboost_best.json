@@ -1,0 +1,15 @@
+{
+  "dataset": "car",
+  "best_params": {
+    "iterations": 182,
+    "learning_rate": 0.06931052352438204,
+    "depth": 6,
+    "l2_leaf_reg": 0.014987093363755994,
+    "random_strength": 0.0010354844596193377,
+    "bagging_temperature": 0.18764823680388093,
+    "border_count": 168
+  },
+  "best_score": 0.9995192890931207,
+  "tune_time": 22.452346801757812,
+  "n_trials": 50
+}

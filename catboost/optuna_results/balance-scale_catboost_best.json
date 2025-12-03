@@ -1,0 +1,15 @@
+{
+  "dataset": "balance-scale",
+  "best_params": {
+    "iterations": 363,
+    "learning_rate": 0.19002893624554873,
+    "depth": 4,
+    "l2_leaf_reg": 0.7875595671132296,
+    "random_strength": 0.007826811222696904,
+    "bagging_temperature": 0.3356874421657183,
+    "border_count": 119
+  },
+  "best_score": 0.9534453290087965,
+  "tune_time": 10.326587915420532,
+  "n_trials": 50
+}

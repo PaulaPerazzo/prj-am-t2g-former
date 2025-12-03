@@ -1,0 +1,15 @@
+{
+  "dataset": "ilpd",
+  "best_params": {
+    "iterations": 381,
+    "learning_rate": 0.015423467501110306,
+    "depth": 4,
+    "l2_leaf_reg": 0.179334650881117,
+    "random_strength": 9.776707423653912,
+    "bagging_temperature": 0.7088451718686236,
+    "border_count": 57
+  },
+  "best_score": 0.7339346188402792,
+  "tune_time": 23.3460910320282,
+  "n_trials": 50
+}

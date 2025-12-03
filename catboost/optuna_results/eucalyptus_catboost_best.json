@@ -1,0 +1,15 @@
+{
+  "dataset": "eucalyptus",
+  "best_params": {
+    "iterations": 337,
+    "learning_rate": 0.04577423662995581,
+    "depth": 5,
+    "l2_leaf_reg": 3.445991322357863,
+    "random_strength": 2.734435746603416,
+    "bagging_temperature": 0.22316076445423746,
+    "border_count": 91
+  },
+  "best_score": 0.8661979344677746,
+  "tune_time": 46.16116404533386,
+  "n_trials": 50
+}

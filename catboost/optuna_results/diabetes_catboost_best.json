@@ -1,0 +1,15 @@
+{
+  "dataset": "diabetes",
+  "best_params": {
+    "iterations": 112,
+    "learning_rate": 0.027010527749605478,
+    "depth": 5,
+    "l2_leaf_reg": 0.23345864076016243,
+    "random_strength": 1.382623217936987,
+    "bagging_temperature": 0.19967378215835974,
+    "border_count": 147
+  },
+  "best_score": 0.8395208066934823,
+  "tune_time": 13.903318643569946,
+  "n_trials": 50
+}

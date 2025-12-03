@@ -1,0 +1,15 @@
+{
+  "dataset": "tic-tac-toe",
+  "best_params": {
+    "iterations": 343,
+    "learning_rate": 0.13999834028477615,
+    "depth": 6,
+    "l2_leaf_reg": 0.1214423851252321,
+    "random_strength": 0.29968948789610234,
+    "bagging_temperature": 0.7066027851795458,
+    "border_count": 195
+  },
+  "best_score": 1.0,
+  "tune_time": 18.706865072250366,
+  "n_trials": 50
+}

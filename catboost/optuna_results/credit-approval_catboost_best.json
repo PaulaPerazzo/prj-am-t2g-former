@@ -1,0 +1,15 @@
+{
+  "dataset": "credit-approval",
+  "best_params": {
+    "iterations": 106,
+    "learning_rate": 0.06242587265091922,
+    "depth": 3,
+    "l2_leaf_reg": 0.2723574117325312,
+    "random_strength": 2.4057966497003065,
+    "bagging_temperature": 0.48431521159265845,
+    "border_count": 206
+  },
+  "best_score": 0.9464188943444262,
+  "tune_time": 14.668849229812622,
+  "n_trials": 50
+}

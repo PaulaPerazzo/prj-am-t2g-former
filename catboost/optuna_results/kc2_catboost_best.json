@@ -1,0 +1,15 @@
+{
+  "dataset": "kc2",
+  "best_params": {
+    "iterations": 336,
+    "learning_rate": 0.024725432634456045,
+    "depth": 3,
+    "l2_leaf_reg": 3.5287603689687526,
+    "random_strength": 0.016280202637738,
+    "bagging_temperature": 0.8932078456752282,
+    "border_count": 243
+  },
+  "best_score": 0.8907771313653667,
+  "tune_time": 74.22349691390991,
+  "n_trials": 50
+}

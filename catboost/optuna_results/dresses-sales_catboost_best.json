@@ -1,0 +1,15 @@
+{
+  "dataset": "dresses-sales",
+  "best_params": {
+    "iterations": 173,
+    "learning_rate": 0.13614662198784633,
+    "depth": 7,
+    "l2_leaf_reg": 9.805962500133788,
+    "random_strength": 0.022281136225138456,
+    "bagging_temperature": 0.9275916119933421,
+    "border_count": 226
+  },
+  "best_score": 0.6575187657292921,
+  "tune_time": 18.087480068206787,
+  "n_trials": 50
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "vehicle",
+  "best_params": {
+    "iterations": 229,
+    "learning_rate": 0.08749994766488771,
+    "depth": 3,
+    "l2_leaf_reg": 2.50507677759741,
+    "random_strength": 0.002775962905365263,
+    "bagging_temperature": 0.9982835861660032,
+    "border_count": 47
+  },
+  "best_score": 0.9300596411235226,
+  "tune_time": 75.90143609046936,
+  "n_trials": 50
+}

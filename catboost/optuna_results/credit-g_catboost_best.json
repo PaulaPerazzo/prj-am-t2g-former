@@ -1,0 +1,15 @@
+{
+  "dataset": "credit-g",
+  "best_params": {
+    "iterations": 284,
+    "learning_rate": 0.03082519278153801,
+    "depth": 6,
+    "l2_leaf_reg": 4.632954876006153,
+    "random_strength": 6.515438729889783,
+    "bagging_temperature": 0.8205248119201679,
+    "border_count": 46
+  },
+  "best_score": 0.7700890463604834,
+  "tune_time": 24.86565399169922,
+  "n_trials": 50
+}

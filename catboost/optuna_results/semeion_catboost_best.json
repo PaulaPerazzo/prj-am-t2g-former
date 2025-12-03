@@ -1,0 +1,15 @@
+{
+  "dataset": "semeion",
+  "best_params": {
+    "iterations": 433,
+    "learning_rate": 0.09109634495981846,
+    "depth": 4,
+    "l2_leaf_reg": 0.06283219021952564,
+    "random_strength": 0.006190558077203713,
+    "bagging_temperature": 0.03198201865774064,
+    "border_count": 32
+  },
+  "best_score": 0.9972932827511627,
+  "tune_time": 3552.299297094345,
+  "n_trials": 50
+}

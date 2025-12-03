@@ -1,0 +1,15 @@
+{
+  "dataset": "climate-model-simulation-crashes",
+  "best_params": {
+    "iterations": 94,
+    "learning_rate": 0.024038564325496777,
+    "depth": 8,
+    "l2_leaf_reg": 0.7148984047579091,
+    "random_strength": 0.4657181661465716,
+    "bagging_temperature": 0.24770790248158484,
+    "border_count": 33
+  },
+  "best_score": 0.9439631336405532,
+  "tune_time": 47.88881015777588,
+  "n_trials": 50
+}
